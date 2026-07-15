@@ -1,0 +1,49 @@
+{
+  "_status": "near-complete",
+  "_note": "This is a NAME/RARITY INDEX cross-referencing the full known commander roster against data/commanders.json. Legendary, Epic, and Elite tiers now have individual detail files for essentially every entry (135 of ~136 known commanders). A handful of very recently released commanders (Alp Arslan, Hayam Wuruk, Yahya ibn Khalid, Elizabeth I, Mary I, Archimedes) have detail files but are marked detail_status: stub-pending-research because independently verified skill numbers were not found in this research pass — see their individual files for what is/isn't confirmed. Advanced-rarity starting commanders are intentionally not itemized (see commanders/advanced/README.md).",
+  "sources": [
+    "https://riseofkingdomsguides.com/all-rise-of-kingdoms-commanders/",
+    "https://riseofkingdoms.fandom.com/wiki/Commanders",
+    "Individual commander build guides (allclash.com, riseofkingdomsguides.com, techgamesnews.com, and others cited per-file)"
+  ],
+  "legendary": [
+    "Alexander the Great", "Cao Cao", "Charlemagne", "Cleopatra VII", "Edward of Woodstock", "El Cid", "Artemisia I",
+    "Frederick I", "Richard I", "Aethelflaed", "Mulan", "Leonidas I", "Charles Martel", "Guan Yu",
+    "Attila", "Chandragupta Maurya", "Hannibal Barca", "Constantine I", "William I", "Takeda Shingen",
+    "Harald Sigurdsson", "Lu Bu", "Theodora", "Genghis Khan", "Ishida Mitsunari",
+    "Minamoto no Yoshitsune", "Julius Caesar", "Mehmed II", "Ramesses II", "Saladin", "Seondeok",
+    "Tomyris", "Wu Zetian", "Yi Seong-Gye", "Yi Sun-sin", "Zenobia", "Lapu-Lapu",
+    "Gonzalo de Córdoba", "Gajah Mada", "Ashurbanipal", "Hermann Prime", "Justinian I",
+    "Gorgo", "Dido", "Huo Qubing", "Pyrrhus", "Margaret", "Heraclius", "Zhuge Liang",
+    "Babur", "Joan of Arc Prime", "Jan Žižka", "Sargon the Great", "Tariq ibn Ziyad",
+    "Boudica Prime", "Henry V", "Thutmose III", "Flavius Aetius", "Xiang Yu",
+    "Nebuchadnezzar II", "Gilgamesh", "Pakal II", "Cyrus the Great", "Trajan", "Cheok Jun-Gyeong",
+    "Honda Tadakatsu", "Bertrand du Guesclin", "Alexander Nevsky", "Suleiman I",
+    "Ragnar Lodbrok Prime", "Jadwiga", "Choe Yeong", "Shajar al-Durr", "Belisarius Prime",
+    "Eleanor of Aquitaine", "William Wallace", "Scipio Aemilianus", "John Hunyadi",
+    "Stephen III", "Philip II", "Siyaj K'ak'", "Subutai", "Shapur", "Qin Shi Huang",
+    "Tokugawa Ieyasu", "Bai Qi", "Afonso de Albuquerque", "Matthias", "Mary I", "Archimedes", "Casimir III",
+    "Pepin III", "Sun Tzu Prime", "Ivar the Boneless", "Gang Gamchan", "Hector", "Achilles",
+    "Elizabeth I", "Vercingetorix", "Hayam Wuruk", "Alp Arslan", "Yahya ibn Khalid",
+    "Liu Che", "Arthur Pendragon", "David IV"
+  ],
+  "epic": [
+    "Pericles", "Baibars", "Belisarius", "Diaochan", "Hermann", "Keira", "Kusunoki Masashige",
+    "Lohar", "Matilda of Flanders", "Osman I", "Pelagius", "Scipio Africanus", "Sun Tzu",
+    "Imhotep", "Bjorn Ironside", "Eulji Mundeok", "Catherine de' Medici", "Narses",
+    "Wak Chanil Ajaw", "Boudica", "Joan of Arc"
+  ],
+  "elite": [
+    "Šárka", "Lancelot", "Tomoe Gozen", "Gaius Marius", "Constance", "Markswoman",
+    "Dragon Lancer", "City Keeper", "Centurion"
+  ],
+  "advanced": [
+    "Starting commanders granted at account creation — names vary by client version; see commanders/advanced/README.md"
+  ],
+  "has_detail_file": "all entries in legendary[], epic[], and elite[] above have a matching file in commanders/{rarity}/ — see data/commanders.json for the full structured records and each file's detail_status field for confidence level",
+  "known_gaps": [
+    "Advanced-rarity starter commanders (by design, see commanders/advanced/README.md)",
+    "Exact numeric skill/damage/rage values throughout are flagged detail_status: partial and should be cross-checked in-game before competitive use, per this repo's no-fabrication policy",
+    "6 very recent commanders (Alp Arslan, Hayam Wuruk, Yahya ibn Khalid, Elizabeth I, Mary I, Archimedes) are detail_status: stub-pending-research — existence and rough role confirmed, but full skill/talent detail needs a follow-up research pass"
+  ]
+}

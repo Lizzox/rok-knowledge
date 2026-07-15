@@ -1,0 +1,18 @@
+{
+  "_status": "partial",
+  "_note": "Civilization list is accurate to the best of available knowledge; exact current bonus percentages are NOT verified for the current patch and should be checked in-game. See guides/beginner/civilization-choice.md.",
+  "civilizations": [
+    { "id": "china", "name": "China", "bonus_theme": "economy/construction leaning", "verified": false },
+    { "id": "rome", "name": "Rome", "bonus_theme": "balanced/military leaning", "verified": false },
+    { "id": "britain", "name": "Britain", "bonus_theme": "economy leaning", "verified": false },
+    { "id": "germany", "name": "Germany", "bonus_theme": "military leaning", "verified": false },
+    { "id": "arabia", "name": "Arabia", "bonus_theme": "gathering/economy leaning", "verified": false },
+    { "id": "japan", "name": "Japan", "bonus_theme": "military leaning", "verified": false },
+    { "id": "korea", "name": "Korea", "bonus_theme": "military/research leaning", "verified": false },
+    { "id": "spain", "name": "Spain", "bonus_theme": "economy leaning", "verified": false },
+    { "id": "ottoman", "name": "Ottoman", "bonus_theme": "military leaning", "verified": false },
+    { "id": "byzantium", "name": "Byzantium", "bonus_theme": "defense/economy leaning", "verified": false },
+    { "id": "vikings", "name": "Vikings", "bonus_theme": "military/raiding leaning", "verified": false },
+    { "id": "france", "name": "France", "bonus_theme": "balanced", "verified": false }
+  ]
+}

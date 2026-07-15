@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://rok-knowledge/schemas/event-schema.json",
+  "title": "Event",
+  "description": "Schema for a Rise of Kingdoms event knowledge document.",
+  "type": "object",
+  "required": ["id", "name", "category", "event_type", "tags", "last_updated", "sources", "detail_status"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string" },
+    "category": { "type": "string", "enum": ["event"] },
+    "event_type": {
+      "type": "string",
+      "enum": ["commander-event", "alliance-event", "solo-event", "seasonal-event", "special-event"]
+    },
+    "frequency": { "type": "string" },
+    "duration": { "type": "string" },
+    "requirements": { "type": "array", "items": { "type": "string" } },
+    "rewards": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "detail_status": { "type": "string", "enum": ["complete", "partial", "stub-pending-research"] },
+    "last_updated": { "type": "string", "format": "date" },
+    "sources": { "type": "array", "items": { "type": "string" } }
+  }
+}

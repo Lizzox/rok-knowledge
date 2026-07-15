@@ -1,0 +1,322 @@
+[
+  {
+    "id": "alliance-mobilization-event",
+    "name": "Alliance Mobilization",
+    "category": "event",
+    "event_type": "alliance-event",
+    "frequency": "recurring",
+    "duration": "multi-day",
+    "requirements": [
+      "Alliance-wide task completion"
+    ],
+    "rewards": [
+      "Alliance-wide chest rewards scaled by individual contribution"
+    ],
+    "tags": [
+      "alliance-event",
+      "tasks",
+      "contribution",
+      "recurring"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdoms.com general event guidance (see guides/events/alliance-events.md)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "events/alliance-events/alliance-mobilization.md"
+  },
+  {
+    "id": "ark-of-osiris-event",
+    "name": "Ark of Osiris",
+    "category": "event",
+    "event_type": "alliance-event",
+    "frequency": "approximately every 2 weeks",
+    "duration": "1 hour per match",
+    "requirements": [
+      "Alliance selects 30 players",
+      "Pre-event march/skill preparation"
+    ],
+    "rewards": [
+      "Season-track rewards",
+      "Alliance-wide prizes"
+    ],
+    "tags": [
+      "alliance-vs-alliance",
+      "pvp",
+      "obelisk",
+      "ark",
+      "coordination",
+      "endgame"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com/ark-of-osiris-guide-and-strategy/",
+      "lootbar.com Rise of Kingdom Ark of Osiris (AOO) Complete Strategy Guide",
+      "rok.guide/ark-of-osiris/"
+    ],
+    "detail_status": "partial",
+    "_source_file": "events/alliance-events/ark-of-osiris.md"
+  },
+  {
+    "id": "ceroli-crisis-event",
+    "name": "Ceroli Crisis",
+    "category": "event",
+    "event_type": "alliance-event",
+    "frequency": "3-4 times per month",
+    "duration": "matchmade session",
+    "requirements": [
+      "3-player team (invite or random matchmaking)"
+    ],
+    "rewards": [
+      "Equipment blueprints",
+      "Resources",
+      "Sculptures"
+    ],
+    "tags": [
+      "small-team",
+      "matchmaking",
+      "barbarian-horde",
+      "blueprints"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "appgamer.com ceroli-crisis"
+    ],
+    "detail_status": "partial",
+    "_source_file": "events/alliance-events/ceroli-crisis.md"
+  },
+  {
+    "id": "shadow-legion-event",
+    "name": "Shadow Legion",
+    "category": "event",
+    "event_type": "alliance-event",
+    "frequency": "seasonal (historically spring/summer per community source)",
+    "duration": "multi-day",
+    "requirements": [
+      "Alliance mobilization and combat readiness"
+    ],
+    "rewards": [
+      "Alliance-wide rewards",
+      "Individual participation rewards"
+    ],
+    "tags": [
+      "alliance-event",
+      "mobilization",
+      "combat",
+      "seasonal"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "community event calendar summaries (shukanbunshun.com Rise of Kingdoms 2024 Calendar Event)"
+    ],
+    "detail_status": "stub-pending-research",
+    "_source_file": "events/alliance-events/shadow-legion.md"
+  },
+  {
+    "id": "silk-road-event",
+    "name": "Silk Road Speculators",
+    "category": "event",
+    "event_type": "alliance-event",
+    "frequency": "monthly",
+    "duration": "multi-day",
+    "requirements": [
+      "Alliance coordination to defend a caravan"
+    ],
+    "rewards": [
+      "Legendary commander sculptures (up to 9 Golden Heads cited)",
+      "Resources"
+    ],
+    "tags": [
+      "alliance-event",
+      "caravan-defense",
+      "coordination",
+      "golden-heads"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "empyreanrule.com Silk Road Speculators Event Guide"
+    ],
+    "detail_status": "partial",
+    "_source_file": "events/alliance-events/silk-road.md"
+  },
+  {
+    "id": "wheel-of-fortune",
+    "name": "Wheel of Fortune",
+    "category": "event",
+    "event_type": "commander-event",
+    "frequency": "approximately every 2 weeks",
+    "duration": "3 days",
+    "requirements": [
+      "Gems"
+    ],
+    "rewards": [
+      "Commander-exclusive sculptures",
+      "Universal commander sculptures",
+      "Large resource items",
+      "Speedups"
+    ],
+    "tags": [
+      "gems",
+      "sculptures",
+      "gacha",
+      "commander-farming",
+      "spending"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com/wheel-of-fortune-guide-in-rise-of-kingdoms/",
+      "techgamesnews.com rok-wheel-of-fortune-commander-cycle-schedule-and-gem-spending-guide",
+      "packsify.com Rise of Kingdoms Wheel of Fortune Strategy Guide"
+    ],
+    "detail_status": "partial",
+    "_source_file": "events/commander-events/wheel-of-fortune.md"
+  },
+  {
+    "id": "lucerne-scrolls-event",
+    "name": "Lucerne Scrolls",
+    "category": "event",
+    "event_type": "seasonal-event",
+    "frequency": "seasonal, roughly every 60 days",
+    "duration": "~60 days (80 levels)",
+    "requirements": [
+      "Daily Activity Points"
+    ],
+    "rewards": [
+      "Legendary accessory blueprints",
+      "Resources",
+      "Speedups",
+      "Sculptures"
+    ],
+    "tags": [
+      "battle-pass",
+      "activity-points",
+      "accessory-blueprints",
+      "progression"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "rok.guide/lucerne-scrolls/",
+      "empyreanrule.com Lucerne Scrolls guide"
+    ],
+    "detail_status": "partial",
+    "_source_file": "events/seasonal-events/lucerne-scrolls.md"
+  },
+  {
+    "id": "karuak-ceremony-event",
+    "name": "The Karuak Ceremony",
+    "category": "event",
+    "event_type": "solo-event",
+    "frequency": "recurring",
+    "duration": "player-paced (50 waves per difficulty)",
+    "requirements": [
+      "Marches to send against barbarian waves"
+    ],
+    "rewards": [
+      "Legendary commander sculptures (Golden Heads)",
+      "XP",
+      "Equipment materials such as Karuak's Humility"
+    ],
+    "tags": [
+      "pve",
+      "barbarians",
+      "golden-heads",
+      "xp-farming",
+      "difficulty-tiers"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "appgamer.com the-karuak-ceremony",
+      "riseofkingdoms.fandom.com/wiki/Events/The_Karuak_Ceremony"
+    ],
+    "detail_status": "partial",
+    "_source_file": "events/solo-events/karuak-ceremony.md"
+  },
+  {
+    "id": "mightiest-governor-event",
+    "name": "The Mightiest Governor",
+    "category": "event",
+    "event_type": "solo-event",
+    "frequency": "recurring, multi-stage",
+    "duration": "6-7 days plus a Final Sprint",
+    "requirements": [
+      "Active kingdom participation",
+      "Pre-staged resources/speedups"
+    ],
+    "rewards": [
+      "Legendary commander sculptures",
+      "Rank-based rewards (top 50 per kingdom)"
+    ],
+    "tags": [
+      "solo-event",
+      "scoring",
+      "kill-event",
+      "training",
+      "technology",
+      "legendary-sculptures"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com/the-mightiest-governor-event/",
+      "appgamer.com how-to-max-your-points-in-the-mightiest-governor",
+      "rok.guide/the-mightiest-governor-event/"
+    ],
+    "detail_status": "partial",
+    "_source_file": "events/solo-events/mightiest-governor.md"
+  },
+  {
+    "id": "sunset-canyon-event",
+    "name": "Sunset Canyon",
+    "category": "event",
+    "event_type": "solo-event",
+    "frequency": "daily attempts",
+    "duration": "ongoing campaign mode",
+    "requirements": [
+      "Daily duel attempts"
+    ],
+    "rewards": [
+      "Speedups",
+      "Season-track rewards (even on loss)"
+    ],
+    "tags": [
+      "pvp",
+      "dueling",
+      "ranking",
+      "daily",
+      "speedups"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com/rise-of-kingdoms-sunset-canyon-guide/",
+      "appgamer.com sunset-canyon"
+    ],
+    "detail_status": "partial",
+    "_source_file": "events/solo-events/sunset-canyon.md"
+  },
+  {
+    "id": "clarion-call-event",
+    "name": "Clarion Call",
+    "category": "event",
+    "event_type": "special-event",
+    "frequency": "periodic",
+    "duration": "multi-day",
+    "requirements": [
+      "Active participation in listed objectives"
+    ],
+    "rewards": [
+      "Resources",
+      "Speedups",
+      "Sculptures (varies by run)"
+    ],
+    "tags": [
+      "special-event",
+      "periodic",
+      "objectives"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "appgamer.com clarion-call"
+    ],
+    "detail_status": "stub-pending-research",
+    "_source_file": "events/special-events/clarion-call.md"
+  }
+]

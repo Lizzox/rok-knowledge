@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://rok-knowledge/schemas/pairing-schema.json",
+  "title": "Pairing",
+  "description": "Schema for a Commander Pairing knowledge document.",
+  "type": "object",
+  "required": ["id", "name", "category", "scenario", "troop_type", "primary_commander", "secondary_commander", "tags", "last_updated", "sources", "detail_status"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string" },
+    "category": { "type": "string", "enum": ["pairing"] },
+    "scenario": {
+      "type": "string",
+      "enum": ["open-field", "rally", "garrison", "barbarians", "barbarian-forts", "gathering", "canyon"]
+    },
+    "troop_type": { "type": "string", "enum": ["Infantry", "Cavalry", "Archer", "Leadership", "Mixed"] },
+    "primary_commander": { "type": "string" },
+    "secondary_commander": { "type": "string" },
+    "tertiary_commander": { "type": "string" },
+    "purpose": { "type": "string" },
+    "explanation": { "type": "string" },
+    "strengths": { "type": "array", "items": { "type": "string" } },
+    "weaknesses": { "type": "array", "items": { "type": "string" } },
+    "alternatives": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "detail_status": { "type": "string", "enum": ["complete", "partial", "stub-pending-research"] },
+    "last_updated": { "type": "string", "format": "date" },
+    "sources": { "type": "array", "items": { "type": "string" } }
+  }
+}
