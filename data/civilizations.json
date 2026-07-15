@@ -1,18 +1,380 @@
-{
-  "_status": "partial",
-  "_note": "Civilization list is accurate to the best of available knowledge; exact current bonus percentages are NOT verified for the current patch and should be checked in-game. See guides/beginner/civilization-choice.md.",
-  "civilizations": [
-    { "id": "china", "name": "China", "bonus_theme": "economy/construction leaning", "verified": false },
-    { "id": "rome", "name": "Rome", "bonus_theme": "balanced/military leaning", "verified": false },
-    { "id": "britain", "name": "Britain", "bonus_theme": "economy leaning", "verified": false },
-    { "id": "germany", "name": "Germany", "bonus_theme": "military leaning", "verified": false },
-    { "id": "arabia", "name": "Arabia", "bonus_theme": "gathering/economy leaning", "verified": false },
-    { "id": "japan", "name": "Japan", "bonus_theme": "military leaning", "verified": false },
-    { "id": "korea", "name": "Korea", "bonus_theme": "military/research leaning", "verified": false },
-    { "id": "spain", "name": "Spain", "bonus_theme": "economy leaning", "verified": false },
-    { "id": "ottoman", "name": "Ottoman", "bonus_theme": "military leaning", "verified": false },
-    { "id": "byzantium", "name": "Byzantium", "bonus_theme": "defense/economy leaning", "verified": false },
-    { "id": "vikings", "name": "Vikings", "bonus_theme": "military/raiding leaning", "verified": false },
-    { "id": "france", "name": "France", "bonus_theme": "balanced", "verified": false }
-  ]
-}
+[
+  {
+    "id": "arabia",
+    "name": "Arabia",
+    "category": "civilization",
+    "bonuses": [
+      "+5% rallied army damage"
+    ],
+    "best_for": [
+      "Rally leaders",
+      "KvK offense"
+    ],
+    "tags": [
+      "civilization",
+      "rally",
+      "kvk",
+      "top-tier",
+      "s-tier"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "heaven-guardian.com Rise of Kingdoms Best Civilization Tier List (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "civilizations/arabia.md"
+  },
+  {
+    "id": "britain",
+    "name": "Britain",
+    "category": "civilization",
+    "bonuses": [
+      "Boudica sculptures",
+      "Increased troop training speed",
+      "Archer attack bonus"
+    ],
+    "best_for": [
+      "Archer-focused accounts"
+    ],
+    "tags": [
+      "civilization",
+      "archer"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "heaven-guardian.com Rise of Kingdoms Best Civilization Tier List (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "civilizations/britain.md"
+  },
+  {
+    "id": "byzantium",
+    "name": "Byzantium",
+    "category": "civilization",
+    "bonuses": [
+      "Increased cavalry health",
+      "Increased hospital capacity"
+    ],
+    "best_for": [
+      "Cavalry-heavy armies",
+      "Extended battles"
+    ],
+    "tags": [
+      "civilization",
+      "cavalry",
+      "hospital",
+      "sustain"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "heaven-guardian.com Rise of Kingdoms Best Civilization Tier List (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "civilizations/byzantium.md"
+  },
+  {
+    "id": "china",
+    "name": "China",
+    "category": "civilization",
+    "bonuses": [
+      "+5% building speed",
+      "+5% action point recovery"
+    ],
+    "best_for": [
+      "New players",
+      "Overall balanced growth"
+    ],
+    "starting_commander": "Sun Tzu",
+    "tags": [
+      "civilization",
+      "beginner-friendly",
+      "economy",
+      "top-tier"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "heaven-guardian.com Rise of Kingdoms Best Civilization Tier List (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "civilizations/china.md"
+  },
+  {
+    "id": "egypt",
+    "name": "Egypt",
+    "category": "civilization",
+    "bonuses": [
+      "+5% archer attack",
+      "+5% damage to gathered troops (flags/forts/cities)",
+      "+1.5% research and building speed"
+    ],
+    "best_for": [
+      "Rally-focused accounts (objective rallying)"
+    ],
+    "tags": [
+      "civilization",
+      "archer",
+      "rally",
+      "objectives"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com Egypt Civilization Guide and Tips"
+    ],
+    "detail_status": "partial",
+    "_source_file": "civilizations/egypt.md"
+  },
+  {
+    "id": "france",
+    "name": "France",
+    "category": "civilization",
+    "bonuses": [
+      "+20% hospital healing speed"
+    ],
+    "best_for": [
+      "Open-field fighting",
+      "Long wars"
+    ],
+    "tags": [
+      "civilization",
+      "hospital",
+      "open-field",
+      "top-tier"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "heaven-guardian.com Rise of Kingdoms Best Civilization Tier List (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "civilizations/france.md"
+  },
+  {
+    "id": "germany",
+    "name": "Germany",
+    "category": "civilization",
+    "bonuses": [
+      "+5% troop training speed",
+      "+10% action point recovery",
+      "+5% cavalry attack",
+      "Teutonic Knight special unit"
+    ],
+    "best_for": [
+      "Long-term/post-KvK play",
+      "Cavalry-focused accounts"
+    ],
+    "tags": [
+      "civilization",
+      "cavalry",
+      "long-term",
+      "top-tier"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "heaven-guardian.com Rise of Kingdoms Best Civilization Tier List (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "civilizations/germany.md"
+  },
+  {
+    "id": "greece",
+    "name": "Greece",
+    "category": "civilization",
+    "bonuses": [
+      "Extra troop health",
+      "Rally damage bonus"
+    ],
+    "best_for": [
+      "Infantry-focused rally play"
+    ],
+    "tags": [
+      "civilization",
+      "infantry",
+      "rally",
+      "health"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "community civilization guides (aggregated)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "civilizations/greece.md"
+  },
+  {
+    "id": "japan",
+    "name": "Japan",
+    "category": "civilization",
+    "bonuses": [
+      "+5% resource gathering",
+      "Faster scouting"
+    ],
+    "best_for": [
+      "Exploration-focused early game",
+      "Gathering"
+    ],
+    "tags": [
+      "civilization",
+      "gathering",
+      "exploration"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "heaven-guardian.com Rise of Kingdoms Best Civilization Tier List (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "civilizations/japan.md"
+  },
+  {
+    "id": "korea",
+    "name": "Korea",
+    "category": "civilization",
+    "bonuses": [
+      "+5% archer defense",
+      "+15% hospital capacity",
+      "+3% research speed"
+    ],
+    "best_for": [
+      "Late-game research efficiency",
+      "Archer defense"
+    ],
+    "tags": [
+      "civilization",
+      "archer",
+      "research",
+      "hospital",
+      "late-game"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "heaven-guardian.com Rise of Kingdoms Best Civilization Tier List (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "civilizations/korea.md"
+  },
+  {
+    "id": "maya",
+    "name": "Maya",
+    "category": "civilization",
+    "bonuses": [
+      "+5% archer defense",
+      "+3% normal damage (all troop types)",
+      "+10% gold gathering speed"
+    ],
+    "best_for": [
+      "Gathering-focused accounts",
+      "Ranged combat"
+    ],
+    "tags": [
+      "civilization",
+      "gathering",
+      "gold",
+      "archer"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com Rise of Kingdoms Maya Civilization Guide"
+    ],
+    "detail_status": "partial",
+    "_source_file": "civilizations/maya.md"
+  },
+  {
+    "id": "ottoman",
+    "name": "Ottoman",
+    "category": "civilization",
+    "bonuses": [
+      "Increased archer health",
+      "Skill damage bonus"
+    ],
+    "best_for": [
+      "Archer-based rally leaders"
+    ],
+    "tags": [
+      "civilization",
+      "archer",
+      "rally",
+      "s-tier"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "heaven-guardian.com Rise of Kingdoms Best Civilization Tier List (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "civilizations/ottoman.md"
+  },
+  {
+    "id": "rome",
+    "name": "Rome",
+    "category": "civilization",
+    "bonuses": [
+      "+5% infantry defense",
+      "+10% food gathering speed",
+      "+5% troop march speed"
+    ],
+    "best_for": [
+      "Garrison defense",
+      "City/structure defense"
+    ],
+    "tags": [
+      "civilization",
+      "infantry",
+      "defense",
+      "gathering"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "heaven-guardian.com Rise of Kingdoms Best Civilization Tier List (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "civilizations/rome.md"
+  },
+  {
+    "id": "spain",
+    "name": "Spain",
+    "category": "civilization",
+    "bonuses": [
+      "+20% resource production",
+      "+5% cavalry defense",
+      "+10% EXP from defeated barbarians/neutral units"
+    ],
+    "best_for": [
+      "Economy-focused accounts",
+      "Barbarian farming"
+    ],
+    "tags": [
+      "civilization",
+      "economy",
+      "cavalry",
+      "barbarians"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "heaven-guardian.com Rise of Kingdoms Best Civilization Tier List (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "civilizations/spain.md"
+  },
+  {
+    "id": "vikings",
+    "name": "Vikings",
+    "category": "civilization",
+    "bonuses": [
+      "Infantry support bonuses",
+      "Garrison defense bonuses"
+    ],
+    "best_for": [
+      "Structure/city defense",
+      "KvK garrison holding"
+    ],
+    "tags": [
+      "civilization",
+      "infantry",
+      "garrison",
+      "defense",
+      "s-tier"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "heaven-guardian.com Rise of Kingdoms Best Civilization Tier List (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "civilizations/vikings.md"
+  }
+]

@@ -86,6 +86,125 @@
     "_source_file": "events/alliance-events/ceroli-crisis.md"
   },
   {
+    "id": "clarion-call-event",
+    "name": "Clarion Call",
+    "category": "event",
+    "event_type": "special-event",
+    "frequency": "periodic",
+    "duration": "multi-day",
+    "requirements": [
+      "Active participation in listed objectives"
+    ],
+    "rewards": [
+      "Resources",
+      "Speedups",
+      "Sculptures (varies by run)"
+    ],
+    "tags": [
+      "special-event",
+      "periodic",
+      "objectives"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "appgamer.com clarion-call"
+    ],
+    "detail_status": "stub-pending-research",
+    "_source_file": "events/special-events/clarion-call.md"
+  },
+  {
+    "id": "karuak-ceremony-event",
+    "name": "The Karuak Ceremony",
+    "category": "event",
+    "event_type": "solo-event",
+    "frequency": "recurring",
+    "duration": "player-paced (50 waves per difficulty)",
+    "requirements": [
+      "Marches to send against barbarian waves"
+    ],
+    "rewards": [
+      "Legendary commander sculptures (Golden Heads)",
+      "XP",
+      "Equipment materials such as Karuak's Humility"
+    ],
+    "tags": [
+      "pve",
+      "barbarians",
+      "golden-heads",
+      "xp-farming",
+      "difficulty-tiers"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "appgamer.com the-karuak-ceremony",
+      "riseofkingdoms.fandom.com/wiki/Events/The_Karuak_Ceremony"
+    ],
+    "detail_status": "partial",
+    "_source_file": "events/solo-events/karuak-ceremony.md"
+  },
+  {
+    "id": "lucerne-scrolls-event",
+    "name": "Lucerne Scrolls",
+    "category": "event",
+    "event_type": "seasonal-event",
+    "frequency": "seasonal, roughly every 60 days",
+    "duration": "~60 days (80 levels)",
+    "requirements": [
+      "Daily Activity Points"
+    ],
+    "rewards": [
+      "Legendary accessory blueprints",
+      "Resources",
+      "Speedups",
+      "Sculptures"
+    ],
+    "tags": [
+      "battle-pass",
+      "activity-points",
+      "accessory-blueprints",
+      "progression"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "rok.guide/lucerne-scrolls/",
+      "empyreanrule.com Lucerne Scrolls guide"
+    ],
+    "detail_status": "partial",
+    "_source_file": "events/seasonal-events/lucerne-scrolls.md"
+  },
+  {
+    "id": "mightiest-governor-event",
+    "name": "The Mightiest Governor",
+    "category": "event",
+    "event_type": "solo-event",
+    "frequency": "recurring, multi-stage",
+    "duration": "6-7 days plus a Final Sprint",
+    "requirements": [
+      "Active kingdom participation",
+      "Pre-staged resources/speedups"
+    ],
+    "rewards": [
+      "Legendary commander sculptures",
+      "Rank-based rewards (top 50 per kingdom)"
+    ],
+    "tags": [
+      "solo-event",
+      "scoring",
+      "kill-event",
+      "training",
+      "technology",
+      "legendary-sculptures"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com/the-mightiest-governor-event/",
+      "appgamer.com how-to-max-your-points-in-the-mightiest-governor",
+      "rok.guide/the-mightiest-governor-event/"
+    ],
+    "detail_status": "partial",
+    "_source_file": "events/solo-events/mightiest-governor.md"
+  },
+  {
     "id": "shadow-legion-event",
     "name": "Shadow Legion",
     "category": "event",
@@ -140,6 +259,35 @@
     "_source_file": "events/alliance-events/silk-road.md"
   },
   {
+    "id": "sunset-canyon-event",
+    "name": "Sunset Canyon",
+    "category": "event",
+    "event_type": "solo-event",
+    "frequency": "daily attempts",
+    "duration": "ongoing campaign mode",
+    "requirements": [
+      "Daily duel attempts"
+    ],
+    "rewards": [
+      "Speedups",
+      "Season-track rewards (even on loss)"
+    ],
+    "tags": [
+      "pvp",
+      "dueling",
+      "ranking",
+      "daily",
+      "speedups"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com/rise-of-kingdoms-sunset-canyon-guide/",
+      "appgamer.com sunset-canyon"
+    ],
+    "detail_status": "partial",
+    "_source_file": "events/solo-events/sunset-canyon.md"
+  },
+  {
     "id": "wheel-of-fortune",
     "name": "Wheel of Fortune",
     "category": "event",
@@ -170,153 +318,5 @@
     ],
     "detail_status": "partial",
     "_source_file": "events/commander-events/wheel-of-fortune.md"
-  },
-  {
-    "id": "lucerne-scrolls-event",
-    "name": "Lucerne Scrolls",
-    "category": "event",
-    "event_type": "seasonal-event",
-    "frequency": "seasonal, roughly every 60 days",
-    "duration": "~60 days (80 levels)",
-    "requirements": [
-      "Daily Activity Points"
-    ],
-    "rewards": [
-      "Legendary accessory blueprints",
-      "Resources",
-      "Speedups",
-      "Sculptures"
-    ],
-    "tags": [
-      "battle-pass",
-      "activity-points",
-      "accessory-blueprints",
-      "progression"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "rok.guide/lucerne-scrolls/",
-      "empyreanrule.com Lucerne Scrolls guide"
-    ],
-    "detail_status": "partial",
-    "_source_file": "events/seasonal-events/lucerne-scrolls.md"
-  },
-  {
-    "id": "karuak-ceremony-event",
-    "name": "The Karuak Ceremony",
-    "category": "event",
-    "event_type": "solo-event",
-    "frequency": "recurring",
-    "duration": "player-paced (50 waves per difficulty)",
-    "requirements": [
-      "Marches to send against barbarian waves"
-    ],
-    "rewards": [
-      "Legendary commander sculptures (Golden Heads)",
-      "XP",
-      "Equipment materials such as Karuak's Humility"
-    ],
-    "tags": [
-      "pve",
-      "barbarians",
-      "golden-heads",
-      "xp-farming",
-      "difficulty-tiers"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "appgamer.com the-karuak-ceremony",
-      "riseofkingdoms.fandom.com/wiki/Events/The_Karuak_Ceremony"
-    ],
-    "detail_status": "partial",
-    "_source_file": "events/solo-events/karuak-ceremony.md"
-  },
-  {
-    "id": "mightiest-governor-event",
-    "name": "The Mightiest Governor",
-    "category": "event",
-    "event_type": "solo-event",
-    "frequency": "recurring, multi-stage",
-    "duration": "6-7 days plus a Final Sprint",
-    "requirements": [
-      "Active kingdom participation",
-      "Pre-staged resources/speedups"
-    ],
-    "rewards": [
-      "Legendary commander sculptures",
-      "Rank-based rewards (top 50 per kingdom)"
-    ],
-    "tags": [
-      "solo-event",
-      "scoring",
-      "kill-event",
-      "training",
-      "technology",
-      "legendary-sculptures"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdomsguides.com/the-mightiest-governor-event/",
-      "appgamer.com how-to-max-your-points-in-the-mightiest-governor",
-      "rok.guide/the-mightiest-governor-event/"
-    ],
-    "detail_status": "partial",
-    "_source_file": "events/solo-events/mightiest-governor.md"
-  },
-  {
-    "id": "sunset-canyon-event",
-    "name": "Sunset Canyon",
-    "category": "event",
-    "event_type": "solo-event",
-    "frequency": "daily attempts",
-    "duration": "ongoing campaign mode",
-    "requirements": [
-      "Daily duel attempts"
-    ],
-    "rewards": [
-      "Speedups",
-      "Season-track rewards (even on loss)"
-    ],
-    "tags": [
-      "pvp",
-      "dueling",
-      "ranking",
-      "daily",
-      "speedups"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdomsguides.com/rise-of-kingdoms-sunset-canyon-guide/",
-      "appgamer.com sunset-canyon"
-    ],
-    "detail_status": "partial",
-    "_source_file": "events/solo-events/sunset-canyon.md"
-  },
-  {
-    "id": "clarion-call-event",
-    "name": "Clarion Call",
-    "category": "event",
-    "event_type": "special-event",
-    "frequency": "periodic",
-    "duration": "multi-day",
-    "requirements": [
-      "Active participation in listed objectives"
-    ],
-    "rewards": [
-      "Resources",
-      "Speedups",
-      "Sculptures (varies by run)"
-    ],
-    "tags": [
-      "special-event",
-      "periodic",
-      "objectives"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "appgamer.com clarion-call"
-    ],
-    "detail_status": "stub-pending-research",
-    "_source_file": "events/special-events/clarion-call.md"
   }
 ]

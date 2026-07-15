@@ -77,6 +77,8 @@ REQUIRED_KEYS = {
     "guide": ["id", "name", "category", "section", "tags", "last_updated", "sources", "detail_status"],
     "equipment": ["id", "name", "category", "slot", "rarity", "tags", "last_updated", "sources", "detail_status"],
     "event": ["id", "name", "category", "event_type", "tags", "last_updated", "sources", "detail_status"],
+    "civilization": ["id", "name", "category", "tags", "last_updated", "sources", "detail_status"],
+    "mechanic": ["id", "name", "category", "tags", "last_updated", "sources", "detail_status"],
 }
 
 REQUIRED_HEADINGS = {
@@ -84,6 +86,8 @@ REQUIRED_HEADINGS = {
     "pairing": ["## Purpose", "## Explanation", "## Strengths", "## Weaknesses", "## Sources"],
     "equipment": ["## Overview", "## Sources"],
     "event": ["## Overview", "## Sources"],
+    "civilization": ["## Overview", "## Sources"],
+    "mechanic": ["## Overview", "## Sources"],
 }
 
 
@@ -132,8 +136,11 @@ def main():
     check_markdown("commanders", "commander", errors, seen_ids)
     check_markdown("pairings", "pairing", errors, seen_ids)
     check_markdown("guides", "guide", errors, seen_ids)
+    check_markdown("crystal-tech", "guide", errors, seen_ids)
     check_markdown("equipment", "equipment", errors, seen_ids)
     check_markdown("events", "event", errors, seen_ids)
+    check_markdown("civilizations", "civilization", errors, seen_ids)
+    check_markdown("mechanics", "mechanic", errors, seen_ids)
 
     if errors:
         print(f"FOUND {len(errors)} issue(s):\n")

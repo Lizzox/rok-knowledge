@@ -1,0 +1,193 @@
+[
+  {
+    "id": "mechanic-armaments",
+    "name": "Armaments System",
+    "category": "mechanic",
+    "tags": [
+      "armaments",
+      "formations",
+      "travel",
+      "dispatch",
+      "endgame"
+    ],
+    "aliases": [
+      "armament system"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "touchscreengaming.com Formations, Inscriptions and Armaments guide",
+      "riseofkingdomsguides.com Formations, Armaments, and Inscriptions Guide"
+    ],
+    "detail_status": "partial",
+    "_source_file": "mechanics/armaments.md"
+  },
+  {
+    "id": "mechanic-commanders",
+    "name": "Commander System Overview",
+    "category": "mechanic",
+    "tags": [
+      "commanders",
+      "specialties",
+      "skills",
+      "talents",
+      "expertise",
+      "mastery",
+      "star-level"
+    ],
+    "aliases": [
+      "commander basics",
+      "how commanders work"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Commanders",
+      "In-game Commander Info panel"
+    ],
+    "detail_status": "complete",
+    "_source_file": "mechanics/commanders.md"
+  },
+  {
+    "id": "mechanic-equipment",
+    "name": "Equipment System",
+    "category": "mechanic",
+    "tags": [
+      "equipment",
+      "gear",
+      "crafting",
+      "sets",
+      "materials"
+    ],
+    "aliases": [
+      "gear system"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Equipment"
+    ],
+    "detail_status": "complete",
+    "_source_file": "mechanics/equipment.md"
+  },
+  {
+    "id": "mechanic-formations",
+    "name": "Formations",
+    "category": "mechanic",
+    "tags": [
+      "formations",
+      "march",
+      "garrison",
+      "defense"
+    ],
+    "aliases": [
+      "formation system"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Formation"
+    ],
+    "detail_status": "complete",
+    "_source_file": "mechanics/formations.md"
+  },
+  {
+    "id": "mechanic-museum",
+    "name": "Museum System",
+    "category": "mechanic",
+    "tags": [
+      "museum",
+      "artifacts",
+      "exhibits",
+      "buffs"
+    ],
+    "aliases": [
+      "museum"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Museum"
+    ],
+    "detail_status": "partial",
+    "_source_file": "mechanics/museum.md"
+  },
+  {
+    "id": "mechanic-rage",
+    "name": "Rage System",
+    "category": "mechanic",
+    "tags": [
+      "rage",
+      "skill-activation",
+      "combat"
+    ],
+    "aliases": [
+      "rage mechanic"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Rage"
+    ],
+    "detail_status": "complete",
+    "_source_file": "mechanics/rage.md"
+  },
+  {
+    "id": "mechanic-talents",
+    "name": "Talent Trees",
+    "category": "mechanic",
+    "tags": [
+      "talents",
+      "talent-tree",
+      "talent-books",
+      "builds"
+    ],
+    "aliases": [
+      "talent build",
+      "talent tree guide"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Talents"
+    ],
+    "detail_status": "complete",
+    "_source_file": "mechanics/talents.md"
+  },
+  {
+    "id": "mechanic-troops",
+    "name": "Troop Types",
+    "category": "mechanic",
+    "tags": [
+      "troops",
+      "infantry",
+      "cavalry",
+      "archers",
+      "siege",
+      "troop-tiers"
+    ],
+    "aliases": [
+      "troop types",
+      "unit types"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Troops"
+    ],
+    "detail_status": "complete",
+    "_source_file": "mechanics/troops.md"
+  },
+  {
+    "id": "mechanic-vip",
+    "name": "VIP System",
+    "category": "mechanic",
+    "tags": [
+      "vip",
+      "vip-shop",
+      "vip-levels"
+    ],
+    "aliases": [
+      "vip levels",
+      "vip shop"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/VIP"
+    ],
+    "detail_status": "complete",
+    "_source_file": "mechanics/vip.md"
+  }
+]

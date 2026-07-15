@@ -82,15 +82,23 @@ def collect(dir_name: str, category: str):
 
 
 def main():
-    mapping = {
-        "commanders": ("commander", "commanders.json"),
-        "pairings": ("pairing", "pairings.json"),
-        "guides": ("guide", "guides.json"),
-        "equipment": ("equipment", "equipment.json"),
-        "events": ("event", "events.json"),
-    }
-    for dir_name, (category, out_name) in mapping.items():
-        entries = collect(dir_name, category)
+    # (source directories, category, output filename). Multiple source dirs
+    # can feed the same output file (e.g. guides/ and crystal-tech/ both hold
+    # category: guide documents).
+    mapping = [
+        (["commanders"], "commander", "commanders.json"),
+        (["pairings"], "pairing", "pairings.json"),
+        (["guides", "crystal-tech"], "guide", "guides.json"),
+        (["equipment"], "equipment", "equipment.json"),
+        (["events"], "event", "events.json"),
+        (["civilizations"], "civilization", "civilizations.json"),
+        (["mechanics"], "mechanic", "mechanics.json"),
+    ]
+    for dir_names, category, out_name in mapping:
+        entries = []
+        for dir_name in dir_names:
+            entries.extend(collect(dir_name, category))
+        entries.sort(key=lambda e: e.get("id", ""))
         out_path = ROOT / "data" / out_name
         out_path.write_text(json.dumps(entries, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         print(f"Wrote {len(entries)} entries to {out_path.relative_to(ROOT)}")

@@ -2,6 +2,22 @@
 
 All notable changes to this knowledge base are documented here. Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.4.0] — 2026-07-15
+
+### Added
+- **Full `civilizations/` database**: all 15 known civilizations (China, Rome, Britain, Germany, Arabia, Japan, Korea, Spain, Ottoman, Byzantium, Vikings, France, Egypt, Maya, Greece), each with sourced bonus values and role recommendations. New `schemas/civilization-schema.json` and `data/civilizations.json` (previously an unverified 12-entry stub).
+- **New `data/mechanics.json`**, generated from the 9 existing `mechanics/*.md` files — previously these were never exported to JSON despite having `category: mechanic` frontmatter.
+- `guides/beginner/civilization-choice.md` rewritten with role-based civilization recommendations (rally leader → Arabia, garrison defense → Vikings/Rome, etc.) instead of generic "don't overthink it" advice only.
+
+### Fixed
+- **`scripts/markdown-to-json.py` was silently skipping `crystal-tech/`** — the 4 Crystal Technology guides (`overview`, `beginner`, `optimization`, `priorities`) have `category: guide` frontmatter but live outside `guides/`, so they were never being collected into `data/guides.json` despite passing individual validation. The script now supports multiple source directories per output file; `crystal-tech/` and `mechanics/` are both wired in.
+- A repository-wide `[[wikilink]]` cross-reference audit found and fixed 11 broken internal links (all caused by the `crystal-tech`/`mechanics` collection gap above, not by typos) — 0 broken links remain outside one intentional documentation example in `CONTRIBUTING.md`.
+- `scripts/README.md` was out of date (referenced only 3 of what are now 7 categories, described `equipment`/`events`/`civilizations` as hand-maintained stubs) — rewritten to match the current script behavior and category table.
+
+### Notes
+- Validation after this QA pass: **263 documents across 7 categories, 0 duplicate IDs, 0 invalid JSON, 0 unintended broken cross-references** (up from 235 across 5 categories at `0.3.0`).
+- This pass was a full-repository audit requested ahead of publishing the repo: every JSON file, every markdown category, and every internal cross-reference was checked, not just newly-added content.
+
 ## [0.3.0] — 2026-07-15
 
 ### Added

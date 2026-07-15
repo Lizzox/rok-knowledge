@@ -1,838 +1,5 @@
 [
   {
-    "id": "centurion",
-    "name": "Centurion",
-    "category": "commander",
-    "rarity": "Elite",
-    "civilization": "Rome",
-    "release_date": "unknown",
-    "specialties": [
-      "Gathering"
-    ],
-    "tags": [
-      "gathering",
-      "economy",
-      "early-game",
-      "generalist",
-      "rome"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "heaven-guardian.com Centurion Rise of Kingdoms gathering guide and talents"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/elite/centurion.md"
-  },
-  {
-    "id": "city-keeper",
-    "name": "City Keeper",
-    "category": "commander",
-    "rarity": "Elite",
-    "civilization": "unspecified in sources",
-    "release_date": "unknown",
-    "specialties": [
-      "Infantry"
-    ],
-    "tags": [
-      "infantry",
-      "early-game",
-      "secondary",
-      "barbarians"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/Commander_Guide",
-      "tristgaming.weebly.com/city-keeper.html"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/elite/city-keeper.md"
-  },
-  {
-    "id": "constance",
-    "name": "Constance",
-    "category": "commander",
-    "rarity": "Elite",
-    "civilization": "France",
-    "release_date": "unknown",
-    "specialties": [
-      "Gathering"
-    ],
-    "tags": [
-      "gathering",
-      "economy",
-      "gold-gathering",
-      "long-term-value",
-      "france"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "houseofkingdoms.com Constance commander guide",
-      "riseofkingdomsguides.com/talent-tree/constance/"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/elite/constance.md"
-  },
-  {
-    "id": "dragon-lancer",
-    "name": "Dragon Lancer",
-    "category": "commander",
-    "rarity": "Elite",
-    "civilization": "unspecified in sources",
-    "release_date": "unknown",
-    "specialties": [
-      "Cavalry",
-      "Mobility"
-    ],
-    "tags": [
-      "cavalry",
-      "mobility",
-      "rune-carrying",
-      "map-exploration",
-      "early-game",
-      "secondary"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/Commanders/Dragon_Lancer"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/elite/dragon-lancer.md"
-  },
-  {
-    "id": "gaius-marius",
-    "name": "Gaius Marius",
-    "category": "commander",
-    "rarity": "Elite",
-    "civilization": "Rome",
-    "release_date": "unknown",
-    "specialties": [
-      "Gathering"
-    ],
-    "tags": [
-      "gathering",
-      "economy",
-      "early-game",
-      "rome"
-    ],
-    "aliases": [
-      "Reformer of the Legions"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "allclash.com best Gaius Marius builds",
-      "heaven-guardian.com Gaius Marius ROK best gathering build and skills"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/elite/gaius-marius.md"
-  },
-  {
-    "id": "lancelot",
-    "name": "Lancelot",
-    "category": "commander",
-    "rarity": "Elite",
-    "civilization": "Britain",
-    "release_date": "unknown",
-    "specialties": [
-      "Cavalry"
-    ],
-    "tags": [
-      "cavalry",
-      "mobility",
-      "rune-carrying",
-      "early-game",
-      "britain"
-    ],
-    "aliases": [
-      "Knight of the Lake"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/Commanders/Lancelot",
-      "bluestacks.com rok-elite-advanced-commanders-guide"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/elite/lancelot.md"
-  },
-  {
-    "id": "markswoman",
-    "name": "Markswoman",
-    "category": "commander",
-    "rarity": "Elite",
-    "civilization": "unspecified in sources",
-    "release_date": "unknown",
-    "specialties": [
-      "Archer",
-      "Peacekeeping"
-    ],
-    "tags": [
-      "archer",
-      "barbarians",
-      "action-point-reduction",
-      "early-game",
-      "not-for-pvp"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/Commanders/Markswoman"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/elite/markswoman.md"
-  },
-  {
-    "id": "sarka",
-    "name": "Šárka",
-    "category": "commander",
-    "rarity": "Elite",
-    "civilization": "Britain",
-    "release_date": "unknown",
-    "specialties": [
-      "Archer",
-      "Skill"
-    ],
-    "tags": [
-      "archer",
-      "early-game",
-      "gathering",
-      "elite"
-    ],
-    "aliases": [
-      "Sarka"
-    ],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/%C5%A0%C3%A1rka"
-    ],
-    "detail_status": "stub-pending-research",
-    "_source_file": "commanders/elite/sarka.md"
-  },
-  {
-    "id": "tomoe-gozen",
-    "name": "Tomoe Gozen",
-    "category": "commander",
-    "rarity": "Elite",
-    "civilization": "Japan",
-    "release_date": "unknown",
-    "specialties": [
-      "Archer"
-    ],
-    "tags": [
-      "archer",
-      "secondary",
-      "early-game",
-      "japan"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "allclash.com best Tomoe Gozen builds"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/elite/tomoe-gozen.md"
-  },
-  {
-    "id": "baibars",
-    "name": "Baibars",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "Arabia",
-    "release_date": "mid-game-era addition",
-    "specialties": [
-      "Cavalry",
-      "Skill"
-    ],
-    "tags": [
-      "cavalry",
-      "open-field",
-      "rally",
-      "skill-damage",
-      "meta",
-      "arabia",
-      "f2p-friendly"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/Baibars"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/baibars.md"
-  },
-  {
-    "id": "belisarius",
-    "name": "Belisarius",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "Byzantium (Rome civilization in-game)",
-    "release_date": "mid-game-era addition",
-    "specialties": [
-      "Archer",
-      "Garrison",
-      "Skill"
-    ],
-    "tags": [
-      "archer",
-      "garrison",
-      "defense",
-      "skill-damage",
-      "meta",
-      "f2p-friendly"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/Belisarius"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/belisarius.md"
-  },
-  {
-    "id": "bjorn-ironside",
-    "name": "Bjorn Ironside",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "Vikings",
-    "release_date": "mid-game-era addition",
-    "specialties": [
-      "Infantry",
-      "Skill"
-    ],
-    "tags": [
-      "infantry",
-      "garrison",
-      "open-field",
-      "tank",
-      "meta",
-      "vikings",
-      "f2p-friendly"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/Bjorn_Ironside"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/bjorn-ironside.md"
-  },
-  {
-    "id": "boudica",
-    "name": "Boudica",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "Britain",
-    "release_date": "unknown",
-    "specialties": [
-      "Peacekeeping",
-      "Skill"
-    ],
-    "tags": [
-      "barbarians",
-      "pve",
-      "rage-denial",
-      "single-target-damage",
-      "britain",
-      "new-server-friendly"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "allclash.com best Boudica builds"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/boudica.md"
-  },
-  {
-    "id": "catherine-de-medici",
-    "name": "Catherine de' Medici",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "France",
-    "release_date": "unknown",
-    "specialties": [
-      "Engineering",
-      "Versatility",
-      "Skill"
-    ],
-    "tags": [
-      "siege",
-      "engineering",
-      "ranged",
-      "f2p-friendly",
-      "france"
-    ],
-    "aliases": [
-      "Catherine"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "techgamesnews.com rok-catherine-de-medici"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/catherine-de-medici.md"
-  },
-  {
-    "id": "diaochan",
-    "name": "Diaochan",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "China",
-    "release_date": "unknown",
-    "specialties": [
-      "Peacekeeping",
-      "Support"
-    ],
-    "tags": [
-      "pve",
-      "barbarians",
-      "healing",
-      "exp-boost",
-      "china",
-      "not-for-pvp"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "allclash.com best Diaochan builds",
-      "riseofkingdomsguides.com/talent-tree/diaochan/"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/diaochan.md"
-  },
-  {
-    "id": "eulji-mundeok",
-    "name": "Eulji Mundeok",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "Korea",
-    "release_date": "unknown",
-    "specialties": [
-      "Infantry",
-      "Garrison",
-      "Attack"
-    ],
-    "tags": [
-      "infantry",
-      "open-field",
-      "garrison",
-      "defense-shred",
-      "korea",
-      "f2p-friendly"
-    ],
-    "aliases": [
-      "Eulji"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "allclash.com best Eulji Mundeok builds"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/eulji-mundeok.md"
-  },
-  {
-    "id": "hermann",
-    "name": "Hermann",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "Rome (Germanic)",
-    "release_date": "mid-game-era addition",
-    "specialties": [
-      "Infantry",
-      "Skill"
-    ],
-    "tags": [
-      "infantry",
-      "garrison",
-      "ambush",
-      "open-field",
-      "f2p-friendly"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/Hermann"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/hermann.md"
-  },
-  {
-    "id": "imhotep",
-    "name": "Imhotep",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "Egypt",
-    "release_date": "unknown",
-    "specialties": [
-      "Archer",
-      "Garrison",
-      "Support"
-    ],
-    "tags": [
-      "archer",
-      "debuff",
-      "rage-denial",
-      "support",
-      "egypt",
-      "f2p-friendly"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "allclash.com best Imhotep builds",
-      "kangfumaster.com rok-commanders-imhotep"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/imhotep.md"
-  },
-  {
-    "id": "joan-of-arc",
-    "name": "Joan of Arc",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "France",
-    "release_date": "unknown",
-    "specialties": [
-      "Integration",
-      "Gathering",
-      "Support"
-    ],
-    "tags": [
-      "support",
-      "gathering",
-      "mixed-troops",
-      "starter-commander",
-      "france",
-      "f2p-friendly"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "heaven-guardian.com Joan of Arc talent guide",
-      "riseofkingdoms.fandom.com/wiki/Commanders/Joan_of_Arc"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/joan-of-arc.md"
-  },
-  {
-    "id": "keira",
-    "name": "Keira",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "unspecified in sources",
-    "release_date": "unknown",
-    "specialties": [
-      "Archer",
-      "Peacekeeping",
-      "Skill"
-    ],
-    "tags": [
-      "archer",
-      "open-field",
-      "skill-damage",
-      "f2p-friendly"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "allclash.com best Keira builds"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/keira.md"
-  },
-  {
-    "id": "kusunoki-masashige",
-    "name": "Kusunoki Masashige",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "Japan",
-    "release_date": "unknown",
-    "specialties": [
-      "Archer",
-      "Peacekeeping"
-    ],
-    "tags": [
-      "archer",
-      "cleanse",
-      "aoe-damage",
-      "garrison",
-      "open-field",
-      "canyon",
-      "japan",
-      "f2p-friendly"
-    ],
-    "aliases": [
-      "Kusunoki"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "allclash.com best Kusunoki Masashige builds",
-      "riseofkingdomsguides.com/talent-tree/kusunoki-masashige/"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/kusunoki-masashige.md"
-  },
-  {
-    "id": "lohar",
-    "name": "Lohar",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "unspecified in sources",
-    "release_date": "unknown",
-    "specialties": [
-      "Integration",
-      "Peacekeeping",
-      "Support"
-    ],
-    "tags": [
-      "pve",
-      "barbarians",
-      "healing",
-      "exp-boost",
-      "action-points",
-      "not-for-pvp"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "allclash.com best Lohar builds",
-      "heaven-guardian.com Lohar Rise of Kingdoms Barbarian Hunter Guide"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/lohar.md"
-  },
-  {
-    "id": "matilda-of-flanders",
-    "name": "Matilda of Flanders",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "Britain",
-    "release_date": "unknown",
-    "specialties": [
-      "Integration",
-      "Gathering",
-      "Defense"
-    ],
-    "tags": [
-      "gathering",
-      "economy",
-      "siege",
-      "britain",
-      "not-for-pvp",
-      "whale-friendly"
-    ],
-    "aliases": [
-      "Matilda"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "allclash.com best Matilda builds",
-      "houseofkingdoms.com best Matilda of Flanders commander guide"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/matilda-of-flanders.md"
-  },
-  {
-    "id": "narses",
-    "name": "Narses",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "Byzantium",
-    "release_date": "unknown",
-    "specialties": [
-      "Engineering",
-      "Versatility",
-      "Defense"
-    ],
-    "tags": [
-      "siege",
-      "engineering",
-      "debuff",
-      "rage-support",
-      "secondary-only",
-      "byzantium"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "techgamesnews.com rok-narses"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/narses.md"
-  },
-  {
-    "id": "osman-i",
-    "name": "Osman I",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "Ottoman",
-    "release_date": "unknown",
-    "specialties": [
-      "Leadership",
-      "Conquering",
-      "Skill"
-    ],
-    "tags": [
-      "leadership",
-      "mixed-troops",
-      "city-siege",
-      "rage-engine",
-      "ottoman",
-      "meta"
-    ],
-    "aliases": [
-      "Osman",
-      "Osman Gazi"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "allclash.com best Osman builds"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/osman-i.md"
-  },
-  {
-    "id": "pelagius",
-    "name": "Pelagius",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "Spain",
-    "release_date": "unknown",
-    "specialties": [
-      "Cavalry",
-      "Garrison"
-    ],
-    "tags": [
-      "cavalry",
-      "open-field",
-      "garrison",
-      "rage-restore",
-      "healing",
-      "spain",
-      "f2p-friendly"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "allclash.com best Pelagius builds"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/pelagius.md"
-  },
-  {
-    "id": "pericles",
-    "name": "Pericles",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "Greece",
-    "release_date": "unknown",
-    "specialties": [
-      "Infantry",
-      "Support"
-    ],
-    "tags": [
-      "infantry",
-      "tank",
-      "garrison",
-      "shield",
-      "f2p-friendly",
-      "greece",
-      "new-player"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "allclash.com best Pericles builds",
-      "rokf2p.com Pericles skills talent tree"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/pericles.md"
-  },
-  {
-    "id": "scipio-africanus",
-    "name": "Scipio Africanus",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "Rome",
-    "release_date": "mid-game-era addition",
-    "specialties": [
-      "Cavalry",
-      "Skill"
-    ],
-    "tags": [
-      "cavalry",
-      "open-field",
-      "rally",
-      "skill-damage",
-      "f2p-friendly"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/Scipio_Africanus"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/scipio-africanus.md"
-  },
-  {
-    "id": "sun-tzu",
-    "name": "Sun Tzu",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "China",
-    "release_date": "launch-era",
-    "specialties": [
-      "Leadership",
-      "Skill",
-      "Support"
-    ],
-    "tags": [
-      "leadership",
-      "support",
-      "rally",
-      "healing",
-      "rage",
-      "meta",
-      "china",
-      "f2p-friendly"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/Sun_Tzu"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/sun-tzu.md"
-  },
-  {
-    "id": "wak-chanil-ajaw",
-    "name": "Wak Chanil Ajaw",
-    "category": "commander",
-    "rarity": "Epic",
-    "civilization": "Maya",
-    "release_date": "unknown",
-    "specialties": [
-      "Integration",
-      "Gathering",
-      "Defense"
-    ],
-    "tags": [
-      "gathering",
-      "economy",
-      "maya",
-      "not-for-pvp"
-    ],
-    "aliases": [],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "allclash.com best Wak Chanil Ajaw builds"
-    ],
-    "detail_status": "partial",
-    "_source_file": "commanders/epic/wak-chanil-ajaw.md"
-  },
-  {
     "id": "achilles",
     "name": "Achilles",
     "category": "commander",
@@ -1205,6 +372,62 @@
     "_source_file": "commanders/legendary/bai-qi.md"
   },
   {
+    "id": "baibars",
+    "name": "Baibars",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "Arabia",
+    "release_date": "mid-game-era addition",
+    "specialties": [
+      "Cavalry",
+      "Skill"
+    ],
+    "tags": [
+      "cavalry",
+      "open-field",
+      "rally",
+      "skill-damage",
+      "meta",
+      "arabia",
+      "f2p-friendly"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Baibars"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/baibars.md"
+  },
+  {
+    "id": "belisarius",
+    "name": "Belisarius",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "Byzantium (Rome civilization in-game)",
+    "release_date": "mid-game-era addition",
+    "specialties": [
+      "Archer",
+      "Garrison",
+      "Skill"
+    ],
+    "tags": [
+      "archer",
+      "garrison",
+      "defense",
+      "skill-damage",
+      "meta",
+      "f2p-friendly"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Belisarius"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/belisarius.md"
+  },
+  {
     "id": "belisarius-prime",
     "name": "Belisarius Prime",
     "category": "commander",
@@ -1262,6 +485,61 @@
     ],
     "detail_status": "partial",
     "_source_file": "commanders/legendary/bertrand-du-guesclin.md"
+  },
+  {
+    "id": "bjorn-ironside",
+    "name": "Bjorn Ironside",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "Vikings",
+    "release_date": "mid-game-era addition",
+    "specialties": [
+      "Infantry",
+      "Skill"
+    ],
+    "tags": [
+      "infantry",
+      "garrison",
+      "open-field",
+      "tank",
+      "meta",
+      "vikings",
+      "f2p-friendly"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Bjorn_Ironside"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/bjorn-ironside.md"
+  },
+  {
+    "id": "boudica",
+    "name": "Boudica",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "Britain",
+    "release_date": "unknown",
+    "specialties": [
+      "Peacekeeping",
+      "Skill"
+    ],
+    "tags": [
+      "barbarians",
+      "pve",
+      "rage-denial",
+      "single-target-damage",
+      "britain",
+      "new-server-friendly"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "allclash.com best Boudica builds"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/boudica.md"
   },
   {
     "id": "boudica-prime",
@@ -1349,6 +627,60 @@
     ],
     "detail_status": "partial",
     "_source_file": "commanders/legendary/casimir-iii.md"
+  },
+  {
+    "id": "catherine-de-medici",
+    "name": "Catherine de' Medici",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "France",
+    "release_date": "unknown",
+    "specialties": [
+      "Engineering",
+      "Versatility",
+      "Skill"
+    ],
+    "tags": [
+      "siege",
+      "engineering",
+      "ranged",
+      "f2p-friendly",
+      "france"
+    ],
+    "aliases": [
+      "Catherine"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "techgamesnews.com rok-catherine-de-medici"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/catherine-de-medici.md"
+  },
+  {
+    "id": "centurion",
+    "name": "Centurion",
+    "category": "commander",
+    "rarity": "Elite",
+    "civilization": "Rome",
+    "release_date": "unknown",
+    "specialties": [
+      "Gathering"
+    ],
+    "tags": [
+      "gathering",
+      "economy",
+      "early-game",
+      "generalist",
+      "rome"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "heaven-guardian.com Centurion Rise of Kingdoms gathering guide and talents"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/elite/centurion.md"
   },
   {
     "id": "chandragupta-maurya",
@@ -1497,6 +829,31 @@
     "_source_file": "commanders/legendary/choe-yeong.md"
   },
   {
+    "id": "city-keeper",
+    "name": "City Keeper",
+    "category": "commander",
+    "rarity": "Elite",
+    "civilization": "unspecified in sources",
+    "release_date": "unknown",
+    "specialties": [
+      "Infantry"
+    ],
+    "tags": [
+      "infantry",
+      "early-game",
+      "secondary",
+      "barbarians"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Commander_Guide",
+      "tristgaming.weebly.com/city-keeper.html"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/elite/city-keeper.md"
+  },
+  {
     "id": "cleopatra",
     "name": "Cleopatra VII",
     "category": "commander",
@@ -1525,6 +882,32 @@
     ],
     "detail_status": "partial",
     "_source_file": "commanders/legendary/cleopatra.md"
+  },
+  {
+    "id": "constance",
+    "name": "Constance",
+    "category": "commander",
+    "rarity": "Elite",
+    "civilization": "France",
+    "release_date": "unknown",
+    "specialties": [
+      "Gathering"
+    ],
+    "tags": [
+      "gathering",
+      "economy",
+      "gold-gathering",
+      "long-term-value",
+      "france"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "houseofkingdoms.com Constance commander guide",
+      "riseofkingdomsguides.com/talent-tree/constance/"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/elite/constance.md"
   },
   {
     "id": "constantine-i",
@@ -1618,6 +1001,34 @@
     "_source_file": "commanders/legendary/david-iv.md"
   },
   {
+    "id": "diaochan",
+    "name": "Diaochan",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "China",
+    "release_date": "unknown",
+    "specialties": [
+      "Peacekeeping",
+      "Support"
+    ],
+    "tags": [
+      "pve",
+      "barbarians",
+      "healing",
+      "exp-boost",
+      "china",
+      "not-for-pvp"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "allclash.com best Diaochan builds",
+      "riseofkingdomsguides.com/talent-tree/diaochan/"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/diaochan.md"
+  },
+  {
     "id": "dido",
     "name": "Dido",
     "category": "commander",
@@ -1645,6 +1056,33 @@
     ],
     "detail_status": "partial",
     "_source_file": "commanders/legendary/dido.md"
+  },
+  {
+    "id": "dragon-lancer",
+    "name": "Dragon Lancer",
+    "category": "commander",
+    "rarity": "Elite",
+    "civilization": "unspecified in sources",
+    "release_date": "unknown",
+    "specialties": [
+      "Cavalry",
+      "Mobility"
+    ],
+    "tags": [
+      "cavalry",
+      "mobility",
+      "rune-carrying",
+      "map-exploration",
+      "early-game",
+      "secondary"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Commanders/Dragon_Lancer"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/elite/dragon-lancer.md"
   },
   {
     "id": "edward-of-woodstock",
@@ -1768,6 +1206,36 @@
     "_source_file": "commanders/legendary/elizabeth-i.md"
   },
   {
+    "id": "eulji-mundeok",
+    "name": "Eulji Mundeok",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "Korea",
+    "release_date": "unknown",
+    "specialties": [
+      "Infantry",
+      "Garrison",
+      "Attack"
+    ],
+    "tags": [
+      "infantry",
+      "open-field",
+      "garrison",
+      "defense-shred",
+      "korea",
+      "f2p-friendly"
+    ],
+    "aliases": [
+      "Eulji"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "allclash.com best Eulji Mundeok builds"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/eulji-mundeok.md"
+  },
+  {
     "id": "flavius-aetius",
     "name": "Flavius Aetius",
     "category": "commander",
@@ -1827,6 +1295,33 @@
     ],
     "detail_status": "partial",
     "_source_file": "commanders/legendary/frederick-i.md"
+  },
+  {
+    "id": "gaius-marius",
+    "name": "Gaius Marius",
+    "category": "commander",
+    "rarity": "Elite",
+    "civilization": "Rome",
+    "release_date": "unknown",
+    "specialties": [
+      "Gathering"
+    ],
+    "tags": [
+      "gathering",
+      "economy",
+      "early-game",
+      "rome"
+    ],
+    "aliases": [
+      "Reformer of the Legions"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "allclash.com best Gaius Marius builds",
+      "heaven-guardian.com Gaius Marius ROK best gathering build and skills"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/elite/gaius-marius.md"
   },
   {
     "id": "gajah-mada",
@@ -2192,6 +1687,32 @@
     "_source_file": "commanders/legendary/heraclius.md"
   },
   {
+    "id": "hermann",
+    "name": "Hermann",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "Rome (Germanic)",
+    "release_date": "mid-game-era addition",
+    "specialties": [
+      "Infantry",
+      "Skill"
+    ],
+    "tags": [
+      "infantry",
+      "garrison",
+      "ambush",
+      "open-field",
+      "f2p-friendly"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Hermann"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/hermann.md"
+  },
+  {
     "id": "hermann-prime",
     "name": "Hermann Prime",
     "category": "commander",
@@ -2277,6 +1798,35 @@
     ],
     "detail_status": "partial",
     "_source_file": "commanders/legendary/huo-qubing.md"
+  },
+  {
+    "id": "imhotep",
+    "name": "Imhotep",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "Egypt",
+    "release_date": "unknown",
+    "specialties": [
+      "Archer",
+      "Garrison",
+      "Support"
+    ],
+    "tags": [
+      "archer",
+      "debuff",
+      "rage-denial",
+      "support",
+      "egypt",
+      "f2p-friendly"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "allclash.com best Imhotep builds",
+      "kangfumaster.com rok-commanders-imhotep"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/imhotep.md"
   },
   {
     "id": "ishida-mitsunari",
@@ -2394,6 +1944,35 @@
     "_source_file": "commanders/legendary/jan-zizka.md"
   },
   {
+    "id": "joan-of-arc",
+    "name": "Joan of Arc",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "France",
+    "release_date": "unknown",
+    "specialties": [
+      "Integration",
+      "Gathering",
+      "Support"
+    ],
+    "tags": [
+      "support",
+      "gathering",
+      "mixed-troops",
+      "starter-commander",
+      "france",
+      "f2p-friendly"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "heaven-guardian.com Joan of Arc talent guide",
+      "riseofkingdoms.fandom.com/wiki/Commanders/Joan_of_Arc"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/joan-of-arc.md"
+  },
+  {
     "id": "joan-of-arc-prime",
     "name": "Joan of Arc Prime",
     "category": "commander",
@@ -2509,6 +2088,92 @@
     "_source_file": "commanders/legendary/justinian-i.md"
   },
   {
+    "id": "keira",
+    "name": "Keira",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "unspecified in sources",
+    "release_date": "unknown",
+    "specialties": [
+      "Archer",
+      "Peacekeeping",
+      "Skill"
+    ],
+    "tags": [
+      "archer",
+      "open-field",
+      "skill-damage",
+      "f2p-friendly"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "allclash.com best Keira builds"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/keira.md"
+  },
+  {
+    "id": "kusunoki-masashige",
+    "name": "Kusunoki Masashige",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "Japan",
+    "release_date": "unknown",
+    "specialties": [
+      "Archer",
+      "Peacekeeping"
+    ],
+    "tags": [
+      "archer",
+      "cleanse",
+      "aoe-damage",
+      "garrison",
+      "open-field",
+      "canyon",
+      "japan",
+      "f2p-friendly"
+    ],
+    "aliases": [
+      "Kusunoki"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "allclash.com best Kusunoki Masashige builds",
+      "riseofkingdomsguides.com/talent-tree/kusunoki-masashige/"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/kusunoki-masashige.md"
+  },
+  {
+    "id": "lancelot",
+    "name": "Lancelot",
+    "category": "commander",
+    "rarity": "Elite",
+    "civilization": "Britain",
+    "release_date": "unknown",
+    "specialties": [
+      "Cavalry"
+    ],
+    "tags": [
+      "cavalry",
+      "mobility",
+      "rune-carrying",
+      "early-game",
+      "britain"
+    ],
+    "aliases": [
+      "Knight of the Lake"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Commanders/Lancelot",
+      "bluestacks.com rok-elite-advanced-commanders-guide"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/elite/lancelot.md"
+  },
+  {
     "id": "lapu-lapu",
     "name": "Lapu-Lapu",
     "category": "commander",
@@ -2598,6 +2263,35 @@
     "_source_file": "commanders/legendary/liu-che.md"
   },
   {
+    "id": "lohar",
+    "name": "Lohar",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "unspecified in sources",
+    "release_date": "unknown",
+    "specialties": [
+      "Integration",
+      "Peacekeeping",
+      "Support"
+    ],
+    "tags": [
+      "pve",
+      "barbarians",
+      "healing",
+      "exp-boost",
+      "action-points",
+      "not-for-pvp"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "allclash.com best Lohar builds",
+      "heaven-guardian.com Lohar Rise of Kingdoms Barbarian Hunter Guide"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/lohar.md"
+  },
+  {
     "id": "lu-bu",
     "name": "Lu Bu",
     "category": "commander",
@@ -2654,6 +2348,32 @@
     "_source_file": "commanders/legendary/margaret.md"
   },
   {
+    "id": "markswoman",
+    "name": "Markswoman",
+    "category": "commander",
+    "rarity": "Elite",
+    "civilization": "unspecified in sources",
+    "release_date": "unknown",
+    "specialties": [
+      "Archer",
+      "Peacekeeping"
+    ],
+    "tags": [
+      "archer",
+      "barbarians",
+      "action-point-reduction",
+      "early-game",
+      "not-for-pvp"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Commanders/Markswoman"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/elite/markswoman.md"
+  },
+  {
     "id": "mary-i",
     "name": "Mary I",
     "category": "commander",
@@ -2678,6 +2398,37 @@
     ],
     "detail_status": "stub-pending-research",
     "_source_file": "commanders/legendary/mary-i.md"
+  },
+  {
+    "id": "matilda-of-flanders",
+    "name": "Matilda of Flanders",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "Britain",
+    "release_date": "unknown",
+    "specialties": [
+      "Integration",
+      "Gathering",
+      "Defense"
+    ],
+    "tags": [
+      "gathering",
+      "economy",
+      "siege",
+      "britain",
+      "not-for-pvp",
+      "whale-friendly"
+    ],
+    "aliases": [
+      "Matilda"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "allclash.com best Matilda builds",
+      "houseofkingdoms.com best Matilda of Flanders commander guide"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/matilda-of-flanders.md"
   },
   {
     "id": "matthias",
@@ -2801,6 +2552,34 @@
     "_source_file": "commanders/legendary/mulan.md"
   },
   {
+    "id": "narses",
+    "name": "Narses",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "Byzantium",
+    "release_date": "unknown",
+    "specialties": [
+      "Engineering",
+      "Versatility",
+      "Defense"
+    ],
+    "tags": [
+      "siege",
+      "engineering",
+      "debuff",
+      "rage-support",
+      "secondary-only",
+      "byzantium"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "techgamesnews.com rok-narses"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/narses.md"
+  },
+  {
     "id": "nebuchadnezzar-ii",
     "name": "Nebuchadnezzar II",
     "category": "commander",
@@ -2829,6 +2608,37 @@
     ],
     "detail_status": "partial",
     "_source_file": "commanders/legendary/nebuchadnezzar-ii.md"
+  },
+  {
+    "id": "osman-i",
+    "name": "Osman I",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "Ottoman",
+    "release_date": "unknown",
+    "specialties": [
+      "Leadership",
+      "Conquering",
+      "Skill"
+    ],
+    "tags": [
+      "leadership",
+      "mixed-troops",
+      "city-siege",
+      "rage-engine",
+      "ottoman",
+      "meta"
+    ],
+    "aliases": [
+      "Osman",
+      "Osman Gazi"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "allclash.com best Osman builds"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/osman-i.md"
   },
   {
     "id": "pakal-ii",
@@ -2861,6 +2671,34 @@
     "_source_file": "commanders/legendary/pakal-ii.md"
   },
   {
+    "id": "pelagius",
+    "name": "Pelagius",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "Spain",
+    "release_date": "unknown",
+    "specialties": [
+      "Cavalry",
+      "Garrison"
+    ],
+    "tags": [
+      "cavalry",
+      "open-field",
+      "garrison",
+      "rage-restore",
+      "healing",
+      "spain",
+      "f2p-friendly"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "allclash.com best Pelagius builds"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/pelagius.md"
+  },
+  {
     "id": "pepin-iii",
     "name": "Pepin III",
     "category": "commander",
@@ -2888,6 +2726,35 @@
     ],
     "detail_status": "partial",
     "_source_file": "commanders/legendary/pepin-iii.md"
+  },
+  {
+    "id": "pericles",
+    "name": "Pericles",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "Greece",
+    "release_date": "unknown",
+    "specialties": [
+      "Infantry",
+      "Support"
+    ],
+    "tags": [
+      "infantry",
+      "tank",
+      "garrison",
+      "shield",
+      "f2p-friendly",
+      "greece",
+      "new-player"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "allclash.com best Pericles builds",
+      "rokf2p.com Pericles skills talent tree"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/pericles.md"
   },
   {
     "id": "philip-ii",
@@ -3131,6 +2998,33 @@
     "_source_file": "commanders/legendary/sargon-the-great.md"
   },
   {
+    "id": "sarka",
+    "name": "Šárka",
+    "category": "commander",
+    "rarity": "Elite",
+    "civilization": "Britain",
+    "release_date": "unknown",
+    "specialties": [
+      "Archer",
+      "Skill"
+    ],
+    "tags": [
+      "archer",
+      "early-game",
+      "gathering",
+      "elite"
+    ],
+    "aliases": [
+      "Sarka"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/%C5%A0%C3%A1rka"
+    ],
+    "detail_status": "stub-pending-research",
+    "_source_file": "commanders/elite/sarka.md"
+  },
+  {
     "id": "scipio-aemilianus",
     "name": "Scipio Aemilianus",
     "category": "commander",
@@ -3157,6 +3051,32 @@
     ],
     "detail_status": "partial",
     "_source_file": "commanders/legendary/scipio-aemilianus.md"
+  },
+  {
+    "id": "scipio-africanus",
+    "name": "Scipio Africanus",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "Rome",
+    "release_date": "mid-game-era addition",
+    "specialties": [
+      "Cavalry",
+      "Skill"
+    ],
+    "tags": [
+      "cavalry",
+      "open-field",
+      "rally",
+      "skill-damage",
+      "f2p-friendly"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Scipio_Africanus"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/scipio-africanus.md"
   },
   {
     "id": "seondeok",
@@ -3357,6 +3277,36 @@
     "_source_file": "commanders/legendary/suleiman-i.md"
   },
   {
+    "id": "sun-tzu",
+    "name": "Sun Tzu",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "China",
+    "release_date": "launch-era",
+    "specialties": [
+      "Leadership",
+      "Skill",
+      "Support"
+    ],
+    "tags": [
+      "leadership",
+      "support",
+      "rally",
+      "healing",
+      "rage",
+      "meta",
+      "china",
+      "f2p-friendly"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Sun_Tzu"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/sun-tzu.md"
+  },
+  {
     "id": "sun-tzu-prime",
     "name": "Sun Tzu Prime",
     "category": "commander",
@@ -3528,6 +3478,30 @@
     "_source_file": "commanders/legendary/tokugawa-ieyasu.md"
   },
   {
+    "id": "tomoe-gozen",
+    "name": "Tomoe Gozen",
+    "category": "commander",
+    "rarity": "Elite",
+    "civilization": "Japan",
+    "release_date": "unknown",
+    "specialties": [
+      "Archer"
+    ],
+    "tags": [
+      "archer",
+      "secondary",
+      "early-game",
+      "japan"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "allclash.com best Tomoe Gozen builds"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/elite/tomoe-gozen.md"
+  },
+  {
     "id": "tomyris",
     "name": "Tomyris",
     "category": "commander",
@@ -3611,6 +3585,32 @@
     ],
     "detail_status": "partial",
     "_source_file": "commanders/legendary/vercingetorix.md"
+  },
+  {
+    "id": "wak-chanil-ajaw",
+    "name": "Wak Chanil Ajaw",
+    "category": "commander",
+    "rarity": "Epic",
+    "civilization": "Maya",
+    "release_date": "unknown",
+    "specialties": [
+      "Integration",
+      "Gathering",
+      "Defense"
+    ],
+    "tags": [
+      "gathering",
+      "economy",
+      "maya",
+      "not-for-pvp"
+    ],
+    "aliases": [],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "allclash.com best Wak Chanil Ajaw builds"
+    ],
+    "detail_status": "partial",
+    "_source_file": "commanders/epic/wak-chanil-ajaw.md"
   },
   {
     "id": "william-i",

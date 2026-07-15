@@ -1,47 +1,5 @@
 [
   {
-    "id": "pairing-guan-yu-richard",
-    "name": "Guan Yu + Richard I",
-    "category": "pairing",
-    "scenario": "barbarian-forts",
-    "troop_type": "Infantry",
-    "primary_commander": "Guan Yu",
-    "secondary_commander": "Richard I",
-    "tags": [
-      "infantry",
-      "barbarian-forts",
-      "tank",
-      "pve"
-    ],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "Community tier lists (riseofkingdomsguides.com)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "pairings/barbarian-forts/guan-yu-richard.md"
-  },
-  {
-    "id": "pairing-attila-yi-seong-gye",
-    "name": "Attila + Yi Seong-Gye",
-    "category": "pairing",
-    "scenario": "barbarians",
-    "troop_type": "Cavalry",
-    "primary_commander": "Attila",
-    "secondary_commander": "Yi Seong-Gye",
-    "tags": [
-      "cavalry",
-      "barbarians",
-      "aoe-damage",
-      "farming"
-    ],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "Community tier lists (riseofkingdomsguides.com)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "pairings/barbarians/attila-yi-seong-gye.md"
-  },
-  {
     "id": "pairing-aethelflaed-zhuge-liang",
     "name": "Aethelflaed + Zhuge Liang",
     "category": "pairing",
@@ -61,47 +19,6 @@
     ],
     "detail_status": "partial",
     "_source_file": "pairings/canyon/aethelflaed-zhuge-liang.md"
-  },
-  {
-    "id": "pairing-richard-charles-martel",
-    "name": "Richard I + Charles Martel",
-    "category": "pairing",
-    "scenario": "garrison",
-    "troop_type": "Infantry",
-    "primary_commander": "Richard I",
-    "secondary_commander": "Charles Martel",
-    "tags": [
-      "infantry",
-      "garrison",
-      "tank",
-      "defense"
-    ],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "Community tier lists (riseofkingdomsguides.com, governorofrok)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "pairings/garrison/richard-charles-martel.md"
-  },
-  {
-    "id": "pairing-gathering-general",
-    "name": "Gathering March Commander Selection",
-    "category": "pairing",
-    "scenario": "gathering",
-    "troop_type": "Mixed",
-    "primary_commander": "Gathering-specialty commander (varies by resource/kingdom)",
-    "secondary_commander": "Any commander with gathering-speed or load-capacity passives",
-    "tags": [
-      "gathering",
-      "economy",
-      "resource-farming"
-    ],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/Gathering"
-    ],
-    "detail_status": "stub-pending-research",
-    "_source_file": "pairings/gathering/gathering-commanders.md"
   },
   {
     "id": "pairing-alexander-yi-seong-gye",
@@ -125,6 +42,27 @@
     "_source_file": "pairings/open-field/alexander-yi-seong-gye.md"
   },
   {
+    "id": "pairing-attila-yi-seong-gye",
+    "name": "Attila + Yi Seong-Gye",
+    "category": "pairing",
+    "scenario": "barbarians",
+    "troop_type": "Cavalry",
+    "primary_commander": "Attila",
+    "secondary_commander": "Yi Seong-Gye",
+    "tags": [
+      "cavalry",
+      "barbarians",
+      "aoe-damage",
+      "farming"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "Community tier lists (riseofkingdomsguides.com)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "pairings/barbarians/attila-yi-seong-gye.md"
+  },
+  {
     "id": "pairing-cao-cao-alexander",
     "name": "Cao Cao + Alexander the Great",
     "category": "pairing",
@@ -145,5 +83,67 @@
     ],
     "detail_status": "partial",
     "_source_file": "pairings/rally/cao-cao-alexander.md"
+  },
+  {
+    "id": "pairing-gathering-general",
+    "name": "Gathering March Commander Selection",
+    "category": "pairing",
+    "scenario": "gathering",
+    "troop_type": "Mixed",
+    "primary_commander": "Gathering-specialty commander (varies by resource/kingdom)",
+    "secondary_commander": "Any commander with gathering-speed or load-capacity passives",
+    "tags": [
+      "gathering",
+      "economy",
+      "resource-farming"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Gathering"
+    ],
+    "detail_status": "stub-pending-research",
+    "_source_file": "pairings/gathering/gathering-commanders.md"
+  },
+  {
+    "id": "pairing-guan-yu-richard",
+    "name": "Guan Yu + Richard I",
+    "category": "pairing",
+    "scenario": "barbarian-forts",
+    "troop_type": "Infantry",
+    "primary_commander": "Guan Yu",
+    "secondary_commander": "Richard I",
+    "tags": [
+      "infantry",
+      "barbarian-forts",
+      "tank",
+      "pve"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "Community tier lists (riseofkingdomsguides.com)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "pairings/barbarian-forts/guan-yu-richard.md"
+  },
+  {
+    "id": "pairing-richard-charles-martel",
+    "name": "Richard I + Charles Martel",
+    "category": "pairing",
+    "scenario": "garrison",
+    "troop_type": "Infantry",
+    "primary_commander": "Richard I",
+    "secondary_commander": "Charles Martel",
+    "tags": [
+      "infantry",
+      "garrison",
+      "tank",
+      "defense"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "Community tier lists (riseofkingdomsguides.com, governorofrok)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "pairings/garrison/richard-charles-martel.md"
   }
 ]

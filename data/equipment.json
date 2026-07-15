@@ -1,188 +1,5 @@
 [
   {
-    "id": "horn-of-fury",
-    "name": "Horn of Fury",
-    "category": "equipment",
-    "slot": "Belt",
-    "rarity": "Legendary",
-    "material_source": [
-      "event-specific blueprints",
-      "VIP chests",
-      "Lost Kingdom rewards"
-    ],
-    "set": "Accessory (standalone)",
-    "best_for": [
-      "Rage-generation",
-      "Rally leaders",
-      "Skill-cycling commanders"
-    ],
-    "tags": [
-      "accessory",
-      "rage-generation",
-      "legendary",
-      "open-field",
-      "rally",
-      "top-priority"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "community accessory guides (aggregated)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "equipment/accessories/horn-of-fury.md"
-  },
-  {
-    "id": "pendant-of-eternal-night",
-    "name": "Pendant of Eternal Night",
-    "category": "equipment",
-    "slot": "Necklace",
-    "rarity": "Legendary",
-    "material_source": [
-      "event-specific blueprints",
-      "VIP chests",
-      "Lost Kingdom rewards"
-    ],
-    "set": "Accessory (standalone)",
-    "best_for": [
-      "Skill-damage commanders"
-    ],
-    "tags": [
-      "accessory",
-      "skill-damage",
-      "legendary",
-      "open-field",
-      "rally"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "community accessory guides (allclash.com / YouTube build breakdowns referenced in aggregate search)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "equipment/accessories/pendant-of-eternal-night.md"
-  },
-  {
-    "id": "ring-of-doom",
-    "name": "Ring of Doom",
-    "category": "equipment",
-    "slot": "Ring",
-    "rarity": "Legendary",
-    "material_source": [
-      "event-specific blueprints",
-      "VIP chests",
-      "Lost Kingdom rewards"
-    ],
-    "set": "Accessory (standalone)",
-    "best_for": [
-      "Normal-attack-damage commanders",
-      "Sustained engagements"
-    ],
-    "tags": [
-      "accessory",
-      "normal-attack-damage",
-      "legendary",
-      "open-field",
-      "rally"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "community accessory guides (aggregated)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "equipment/accessories/ring-of-doom.md"
-  },
-  {
-    "id": "scolas-lucky-coin",
-    "name": "Scolas' Lucky Coin",
-    "category": "equipment",
-    "slot": "Ring",
-    "rarity": "Legendary",
-    "material_source": [
-      "event-specific blueprints",
-      "VIP chests",
-      "Lost Kingdom rewards"
-    ],
-    "set": "Accessory (standalone)",
-    "best_for": [
-      "Garrison defense",
-      "Damage mitigation"
-    ],
-    "tags": [
-      "accessory",
-      "garrison",
-      "shield",
-      "defense",
-      "legendary"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "community accessory guides (aggregated)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "equipment/accessories/scolas-lucky-coin.md"
-  },
-  {
-    "id": "vengeance",
-    "name": "Vengeance",
-    "category": "equipment",
-    "slot": "Ring",
-    "rarity": "Legendary",
-    "material_source": [
-      "event-specific blueprints",
-      "VIP chests",
-      "Lost Kingdom rewards"
-    ],
-    "set": "Accessory (standalone)",
-    "best_for": [
-      "Garrison defense",
-      "Counterattack damage"
-    ],
-    "tags": [
-      "accessory",
-      "garrison",
-      "counterattack",
-      "defense",
-      "legendary"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "community accessory guides (aggregated)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "equipment/accessories/vengeance.md"
-  },
-  {
-    "id": "legendary-archer-set",
-    "name": "Legendary Archer 4-Piece Set + Special Talent Weapon",
-    "category": "equipment",
-    "slot": "Weapon",
-    "rarity": "Legendary",
-    "material_source": [
-      "Blacksmith crafting",
-      "Season of Conquest KvK rewards"
-    ],
-    "set": "Legendary Archer set",
-    "best_for": [
-      "Archer",
-      "Skill-damage commanders",
-      "Open field",
-      "Rally"
-    ],
-    "tags": [
-      "archer",
-      "weapon",
-      "legendary",
-      "skill-damage",
-      "special-talent",
-      "endgame"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
-    ],
-    "detail_status": "partial",
-    "_source_file": "equipment/archer/legendary-archer-set.md"
-  },
-  {
     "id": "ash-of-the-dawn",
     "name": "Ash of the Dawn",
     "category": "equipment",
@@ -210,93 +27,6 @@
     ],
     "detail_status": "partial",
     "_source_file": "equipment/cavalry/ash-of-the-dawn.md"
-  },
-  {
-    "id": "hope-cloak",
-    "name": "Hope Cloak",
-    "category": "equipment",
-    "slot": "Chestplate",
-    "rarity": "Legendary",
-    "material_source": [
-      "Season of Conquest KvK rewards"
-    ],
-    "set": "Cavalry legendary set",
-    "best_for": [
-      "Cavalry",
-      "Open field",
-      "Rally"
-    ],
-    "tags": [
-      "cavalry",
-      "chestplate",
-      "legendary",
-      "kvk-reward",
-      "endgame"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
-    ],
-    "detail_status": "partial",
-    "_source_file": "equipment/cavalry/hope-cloak.md"
-  },
-  {
-    "id": "navars-control",
-    "name": "Navar's Control",
-    "category": "equipment",
-    "slot": "Ring",
-    "rarity": "Legendary",
-    "material_source": [
-      "Season of Conquest KvK rewards"
-    ],
-    "set": "Cavalry legendary set",
-    "best_for": [
-      "Cavalry",
-      "Open field",
-      "Rally"
-    ],
-    "tags": [
-      "cavalry",
-      "gloves",
-      "legendary",
-      "kvk-reward",
-      "endgame"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
-    ],
-    "detail_status": "partial",
-    "_source_file": "equipment/cavalry/navars-control.md"
-  },
-  {
-    "id": "pride-of-the-khan",
-    "name": "Pride of the Khan",
-    "category": "equipment",
-    "slot": "Weapon",
-    "rarity": "Legendary",
-    "material_source": [
-      "Season of Conquest KvK rewards"
-    ],
-    "set": "Cavalry legendary set",
-    "best_for": [
-      "Cavalry",
-      "Open field",
-      "Rally"
-    ],
-    "tags": [
-      "cavalry",
-      "weapon",
-      "legendary",
-      "kvk-reward",
-      "endgame"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
-    ],
-    "detail_status": "partial",
-    "_source_file": "equipment/cavalry/pride-of-the-khan.md"
   },
   {
     "id": "bards-pendant",
@@ -419,6 +149,67 @@
     "_source_file": "equipment/infantry/hammer-of-the-sun-and-moon.md"
   },
   {
+    "id": "hope-cloak",
+    "name": "Hope Cloak",
+    "category": "equipment",
+    "slot": "Chestplate",
+    "rarity": "Legendary",
+    "material_source": [
+      "Season of Conquest KvK rewards"
+    ],
+    "set": "Cavalry legendary set",
+    "best_for": [
+      "Cavalry",
+      "Open field",
+      "Rally"
+    ],
+    "tags": [
+      "cavalry",
+      "chestplate",
+      "legendary",
+      "kvk-reward",
+      "endgame"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
+    ],
+    "detail_status": "partial",
+    "_source_file": "equipment/cavalry/hope-cloak.md"
+  },
+  {
+    "id": "horn-of-fury",
+    "name": "Horn of Fury",
+    "category": "equipment",
+    "slot": "Belt",
+    "rarity": "Legendary",
+    "material_source": [
+      "event-specific blueprints",
+      "VIP chests",
+      "Lost Kingdom rewards"
+    ],
+    "set": "Accessory (standalone)",
+    "best_for": [
+      "Rage-generation",
+      "Rally leaders",
+      "Skill-cycling commanders"
+    ],
+    "tags": [
+      "accessory",
+      "rage-generation",
+      "legendary",
+      "open-field",
+      "rally",
+      "top-priority"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "community accessory guides (aggregated)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "equipment/accessories/horn-of-fury.md"
+  },
+  {
     "id": "karuaks-humility",
     "name": "Karuak's Humility",
     "category": "equipment",
@@ -476,6 +267,38 @@
     "_source_file": "equipment/leadership/leadership-support-set.md"
   },
   {
+    "id": "legendary-archer-set",
+    "name": "Legendary Archer 4-Piece Set + Special Talent Weapon",
+    "category": "equipment",
+    "slot": "Weapon",
+    "rarity": "Legendary",
+    "material_source": [
+      "Blacksmith crafting",
+      "Season of Conquest KvK rewards"
+    ],
+    "set": "Legendary Archer set",
+    "best_for": [
+      "Archer",
+      "Skill-damage commanders",
+      "Open field",
+      "Rally"
+    ],
+    "tags": [
+      "archer",
+      "weapon",
+      "legendary",
+      "skill-damage",
+      "special-talent",
+      "endgame"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
+    ],
+    "detail_status": "partial",
+    "_source_file": "equipment/archer/legendary-archer-set.md"
+  },
+  {
     "id": "mixed-troop-versatility-set",
     "name": "Mixed-Troop Versatility Equipment",
     "category": "equipment",
@@ -500,5 +323,182 @@
     ],
     "detail_status": "stub-pending-research",
     "_source_file": "equipment/mixed/mixed-troop-versatility-set.md"
+  },
+  {
+    "id": "navars-control",
+    "name": "Navar's Control",
+    "category": "equipment",
+    "slot": "Ring",
+    "rarity": "Legendary",
+    "material_source": [
+      "Season of Conquest KvK rewards"
+    ],
+    "set": "Cavalry legendary set",
+    "best_for": [
+      "Cavalry",
+      "Open field",
+      "Rally"
+    ],
+    "tags": [
+      "cavalry",
+      "gloves",
+      "legendary",
+      "kvk-reward",
+      "endgame"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
+    ],
+    "detail_status": "partial",
+    "_source_file": "equipment/cavalry/navars-control.md"
+  },
+  {
+    "id": "pendant-of-eternal-night",
+    "name": "Pendant of Eternal Night",
+    "category": "equipment",
+    "slot": "Necklace",
+    "rarity": "Legendary",
+    "material_source": [
+      "event-specific blueprints",
+      "VIP chests",
+      "Lost Kingdom rewards"
+    ],
+    "set": "Accessory (standalone)",
+    "best_for": [
+      "Skill-damage commanders"
+    ],
+    "tags": [
+      "accessory",
+      "skill-damage",
+      "legendary",
+      "open-field",
+      "rally"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "community accessory guides (allclash.com / YouTube build breakdowns referenced in aggregate search)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "equipment/accessories/pendant-of-eternal-night.md"
+  },
+  {
+    "id": "pride-of-the-khan",
+    "name": "Pride of the Khan",
+    "category": "equipment",
+    "slot": "Weapon",
+    "rarity": "Legendary",
+    "material_source": [
+      "Season of Conquest KvK rewards"
+    ],
+    "set": "Cavalry legendary set",
+    "best_for": [
+      "Cavalry",
+      "Open field",
+      "Rally"
+    ],
+    "tags": [
+      "cavalry",
+      "weapon",
+      "legendary",
+      "kvk-reward",
+      "endgame"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
+    ],
+    "detail_status": "partial",
+    "_source_file": "equipment/cavalry/pride-of-the-khan.md"
+  },
+  {
+    "id": "ring-of-doom",
+    "name": "Ring of Doom",
+    "category": "equipment",
+    "slot": "Ring",
+    "rarity": "Legendary",
+    "material_source": [
+      "event-specific blueprints",
+      "VIP chests",
+      "Lost Kingdom rewards"
+    ],
+    "set": "Accessory (standalone)",
+    "best_for": [
+      "Normal-attack-damage commanders",
+      "Sustained engagements"
+    ],
+    "tags": [
+      "accessory",
+      "normal-attack-damage",
+      "legendary",
+      "open-field",
+      "rally"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "community accessory guides (aggregated)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "equipment/accessories/ring-of-doom.md"
+  },
+  {
+    "id": "scolas-lucky-coin",
+    "name": "Scolas' Lucky Coin",
+    "category": "equipment",
+    "slot": "Ring",
+    "rarity": "Legendary",
+    "material_source": [
+      "event-specific blueprints",
+      "VIP chests",
+      "Lost Kingdom rewards"
+    ],
+    "set": "Accessory (standalone)",
+    "best_for": [
+      "Garrison defense",
+      "Damage mitigation"
+    ],
+    "tags": [
+      "accessory",
+      "garrison",
+      "shield",
+      "defense",
+      "legendary"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "community accessory guides (aggregated)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "equipment/accessories/scolas-lucky-coin.md"
+  },
+  {
+    "id": "vengeance",
+    "name": "Vengeance",
+    "category": "equipment",
+    "slot": "Ring",
+    "rarity": "Legendary",
+    "material_source": [
+      "event-specific blueprints",
+      "VIP chests",
+      "Lost Kingdom rewards"
+    ],
+    "set": "Accessory (standalone)",
+    "best_for": [
+      "Garrison defense",
+      "Counterattack damage"
+    ],
+    "tags": [
+      "accessory",
+      "garrison",
+      "counterattack",
+      "defense",
+      "legendary"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "community accessory guides (aggregated)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "equipment/accessories/vengeance.md"
   }
 ]

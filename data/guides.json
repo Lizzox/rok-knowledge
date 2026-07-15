@@ -1,5 +1,91 @@
 [
   {
+    "id": "crystal-tech-beginner",
+    "name": "Crystal Technology — Early Season",
+    "category": "guide",
+    "section": "kvk",
+    "audience": "mature-kingdom",
+    "summary": "First priorities, resource management, and growth strategy for the early Season of Conquest window.",
+    "tags": [
+      "crystal-tech",
+      "season-of-conquest",
+      "early-season",
+      "beginner"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "packsify.com Rise of Kingdoms Season of Conquest Guide for Alliance Leaders",
+      "houseofkingdoms.com Best Season of Conquest Technology Guide for Beginners"
+    ],
+    "detail_status": "partial",
+    "_source_file": "crystal-tech/beginner.md"
+  },
+  {
+    "id": "crystal-tech-optimization",
+    "name": "Crystal Technology — Mid & Late Season Optimization",
+    "category": "guide",
+    "section": "kvk",
+    "audience": "mature-kingdom",
+    "summary": "Technology optimization and war preparation for mid-season, and final-upgrade efficiency for late season.",
+    "tags": [
+      "crystal-tech",
+      "season-of-conquest",
+      "mid-season",
+      "late-season",
+      "optimization"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "touchscreengaming.com Crystals Guide and Technology Levelling Order",
+      "riseofkingdomsguides.com Season of Conquest Crystal Tech Changes"
+    ],
+    "detail_status": "partial",
+    "_source_file": "crystal-tech/optimization.md"
+  },
+  {
+    "id": "crystal-tech-overview",
+    "name": "Crystal Technology Overview",
+    "category": "guide",
+    "section": "kvk",
+    "audience": "mature-kingdom",
+    "summary": "What Crystal Technology is, how it works, and how it fits into the Season of Conquest KvK structure.",
+    "tags": [
+      "crystal-tech",
+      "season-of-conquest",
+      "kvk",
+      "endgame"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com Season of Conquest Crystal Tech Changes",
+      "packsify.com Rise of Kingdoms Season of Conquest Guide for Alliance Leaders",
+      "touchscreengaming.com Crystals Guide and Technology Levelling Order"
+    ],
+    "detail_status": "partial",
+    "_source_file": "crystal-tech/overview.md"
+  },
+  {
+    "id": "crystal-tech-priorities",
+    "name": "Crystal Technology Priority Checklist",
+    "category": "guide",
+    "section": "kvk",
+    "audience": "mature-kingdom",
+    "summary": "A condensed, ordered checklist of Crystal Technology spending priorities for F2P and whale accounts.",
+    "tags": [
+      "crystal-tech",
+      "season-of-conquest",
+      "priorities",
+      "checklist"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "packsify.com Rise of Kingdoms Season of Conquest Guide for Alliance Leaders",
+      "touchscreengaming.com Crystals Guide and Technology Levelling Order"
+    ],
+    "detail_status": "partial",
+    "_source_file": "crystal-tech/priorities.md"
+  },
+  {
     "id": "guide-account-optimization",
     "name": "Main Account Optimization",
     "category": "guide",
@@ -19,6 +105,66 @@
     ],
     "detail_status": "partial",
     "_source_file": "guides/advanced/account-optimization.md"
+  },
+  {
+    "id": "guide-advanced-talent-optimization",
+    "name": "Advanced Talent and Build Optimization",
+    "category": "guide",
+    "section": "advanced",
+    "audience": "mature-kingdom",
+    "summary": "Deeper considerations for min-maxing commander builds once base talents/equipment are complete.",
+    "tags": [
+      "advanced",
+      "talents",
+      "optimization",
+      "min-max"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "Community advanced guides (riseofkingdomsguides.com)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/advanced/talent-optimization.md"
+  },
+  {
+    "id": "guide-alliance-events",
+    "name": "Alliance Events Overview",
+    "category": "guide",
+    "section": "events",
+    "audience": "mature-kingdom",
+    "summary": "How alliance-wide events (fortress battles, alliance mobilization, territory events) generally function and how to contribute.",
+    "tags": [
+      "events",
+      "alliance",
+      "mobilization",
+      "territory"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/events/alliance-events.md"
+  },
+  {
+    "id": "guide-alliance-participation",
+    "name": "Alliance Participation Guide",
+    "category": "guide",
+    "section": "progression",
+    "audience": "growing-kingdom",
+    "summary": "How to move from passive alliance membership to an active, trusted contributor ahead of KvK.",
+    "tags": [
+      "midgame",
+      "alliance",
+      "participation",
+      "trust"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "lootbar.com Rise of Kingdoms Beginner's Guide to Fast Progression (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/midgame/alliance-participation.md"
   },
   {
     "id": "guide-alliance-rules-creation",
@@ -41,123 +187,133 @@
     "_source_file": "guides/advanced/alliance-rules-creation.md"
   },
   {
-    "id": "guide-diplomacy",
-    "name": "Diplomacy Guide",
+    "id": "guide-archer-equipment-optimization",
+    "name": "Archer Equipment Optimization",
     "category": "guide",
-    "section": "advanced",
-    "audience": "mature-kingdom",
-    "summary": "How alliance/kingdom leadership manages relationships with other alliances and kingdoms.",
+    "section": "combat",
+    "audience": "all",
+    "summary": "Gearing Archer marches around skill damage for open-field and rally nuking.",
     "tags": [
-      "advanced",
-      "alliance-leadership",
-      "diplomacy"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "general alliance-leadership guidance (aggregated)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/advanced/diplomacy-guide.md"
-  },
-  {
-    "id": "guide-farm-account-system",
-    "name": "Farm Account System",
-    "category": "guide",
-    "section": "advanced",
-    "audience": "mature-kingdom",
-    "summary": "How and why experienced players run secondary \"farm\" accounts to feed resources to a main account.",
-    "tags": [
-      "advanced",
-      "farm-accounts",
-      "resources",
-      "multi-account"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "general community farm-account guidance (aggregated)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/advanced/farm-account-system.md"
-  },
-  {
-    "id": "guide-kingdom-management",
-    "name": "Kingdom Management Guide",
-    "category": "guide",
-    "section": "advanced",
-    "audience": "mature-kingdom",
-    "summary": "How top alliance leadership coordinates across multiple alliances within a kingdom.",
-    "tags": [
-      "advanced",
-      "alliance-leadership",
-      "kingdom-management",
-      "cross-alliance"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "general alliance-leadership guidance (aggregated)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/advanced/kingdom-management.md"
-  },
-  {
-    "id": "guide-kvk-leadership",
-    "name": "KvK Leadership Guide",
-    "category": "guide",
-    "section": "advanced",
-    "audience": "mature-kingdom",
-    "summary": "How alliance/kingdom leadership should plan and execute strategy across a KvK season.",
-    "tags": [
-      "advanced",
-      "alliance-leadership",
-      "kvk",
-      "war-planning"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "general alliance-leadership guidance (aggregated)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/advanced/kvk-leadership.md"
-  },
-  {
-    "id": "guide-officer",
-    "name": "Alliance Officer Guide",
-    "category": "guide",
-    "section": "advanced",
-    "audience": "mature-kingdom",
-    "summary": "Responsibilities and best practices for alliance officers (R4) below the alliance leader.",
-    "tags": [
-      "advanced",
-      "alliance-leadership",
-      "officer",
-      "r4"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "general alliance-leadership guidance (aggregated)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/advanced/officer-guide.md"
-  },
-  {
-    "id": "guide-advanced-talent-optimization",
-    "name": "Advanced Talent and Build Optimization",
-    "category": "guide",
-    "section": "advanced",
-    "audience": "mature-kingdom",
-    "summary": "Deeper considerations for min-maxing commander builds once base talents/equipment are complete.",
-    "tags": [
-      "advanced",
-      "talents",
+      "equipment",
+      "archer",
       "optimization",
-      "min-max"
+      "skill-damage",
+      "open-field",
+      "rally"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "lootbar.com Ultimate Archer Equipment Guide (Early → Endgame)",
+      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/equipment/archer-equipment-optimization.md"
+  },
+  {
+    "id": "guide-ark-of-osiris",
+    "name": "Ark of Osiris Event",
+    "category": "guide",
+    "section": "events",
+    "audience": "mature-kingdom",
+    "summary": "A large-scale cross-kingdom team battle event centered on capturing and defending an \"Ark\" objective.",
+    "tags": [
+      "events",
+      "ark-of-osiris",
+      "cross-kingdom",
+      "team-battle"
     ],
     "last_updated": "2026-07-14",
     "sources": [
-      "Community advanced guides (riseofkingdomsguides.com)"
+      "riseofkingdoms.fandom.com/wiki/Ark_of_Osiris"
     ],
     "detail_status": "partial",
-    "_source_file": "guides/advanced/talent-optimization.md"
+    "_source_file": "guides/events/ark-of-osiris.md"
+  },
+  {
+    "id": "guide-armaments-endgame",
+    "name": "Armaments and Formations Guide",
+    "category": "guide",
+    "section": "advanced",
+    "audience": "mature-kingdom",
+    "summary": "How the Armament/Formation/Inscription system works and how to optimize it at the endgame.",
+    "tags": [
+      "endgame",
+      "armaments",
+      "formations",
+      "inscriptions"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "touchscreengaming.com Formations, Inscriptions and Armaments guide",
+      "riseofkingdomsguides.com Formations, Armaments, and Inscriptions Guide"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/endgame/armaments-guide.md"
+  },
+  {
+    "id": "guide-beginner-equipment",
+    "name": "Beginner Equipment Guide",
+    "category": "guide",
+    "section": "economy",
+    "audience": "new-player",
+    "summary": "What to craft first, what to avoid, and how to manage materials and blueprints as a new player.",
+    "tags": [
+      "equipment",
+      "beginner",
+      "blacksmith",
+      "materials",
+      "blueprints"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+      "packsify.com Rise of Kingdoms Equipment Guide for High Spenders (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/equipment/beginner-equipment-guide.md"
+  },
+  {
+    "id": "guide-cavalry-equipment-optimization",
+    "name": "Cavalry Equipment Optimization",
+    "category": "guide",
+    "section": "combat",
+    "audience": "all",
+    "summary": "Gearing Cavalry marches for open-field roaming versus rally leadership.",
+    "tags": [
+      "equipment",
+      "cavalry",
+      "optimization",
+      "open-field",
+      "rally"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/equipment/cavalry-equipment-optimization.md"
+  },
+  {
+    "id": "guide-ch21-25-progression",
+    "name": "City Hall 21-25 Progression",
+    "category": "guide",
+    "section": "progression",
+    "audience": "growing-kingdom",
+    "summary": "The \"Feudal Age\" stretch from City Hall 21 to 25, including required building levels and troop-tier milestones.",
+    "tags": [
+      "midgame",
+      "city-hall",
+      "feudal-age",
+      "t4",
+      "t5-prep"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "pocketgamer.com Rise of Kingdoms City Hall upgrade requirements and designs",
+      "ajackof.com ROK City Hall Building Requirements"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/midgame/ch21-25-progression.md"
   },
   {
     "id": "guide-city-hall-progression",
@@ -191,12 +347,51 @@
       "civilization",
       "starting-choice"
     ],
-    "last_updated": "2026-07-14",
+    "last_updated": "2026-07-15",
     "sources": [
-      "riseofkingdoms.fandom.com/wiki/Civilizations"
+      "heaven-guardian.com Rise of Kingdoms Best Civilization Tier List (2026)",
+      "riseofkingdomsguides.com Egypt/Maya Civilization Guides"
     ],
     "detail_status": "partial",
     "_source_file": "guides/beginner/civilization-choice.md"
+  },
+  {
+    "id": "guide-combat-equipment",
+    "name": "Equipping for Combat",
+    "category": "guide",
+    "section": "combat",
+    "audience": "all",
+    "summary": "How to prioritize equipment slots and sets based on your commander's combat role.",
+    "tags": [
+      "combat",
+      "equipment",
+      "gear-priority"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Equipment"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/combat/equipment.md"
+  },
+  {
+    "id": "guide-combat-talents",
+    "name": "Talent Builds for Combat Roles",
+    "category": "guide",
+    "section": "combat",
+    "audience": "all",
+    "summary": "How to choose talent trees and keystones based on whether a commander is a rally leader, secondary, or garrison defender.",
+    "tags": [
+      "combat",
+      "talents",
+      "builds"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Talents"
+    ],
+    "detail_status": "complete",
+    "_source_file": "guides/combat/talents.md"
   },
   {
     "id": "guide-day-1",
@@ -262,6 +457,129 @@
     "_source_file": "guides/beginner/day-7-guide.md"
   },
   {
+    "id": "guide-diplomacy",
+    "name": "Diplomacy Guide",
+    "category": "guide",
+    "section": "advanced",
+    "audience": "mature-kingdom",
+    "summary": "How alliance/kingdom leadership manages relationships with other alliances and kingdoms.",
+    "tags": [
+      "advanced",
+      "alliance-leadership",
+      "diplomacy"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "general alliance-leadership guidance (aggregated)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/advanced/diplomacy-guide.md"
+  },
+  {
+    "id": "guide-economic-research",
+    "name": "Economic Research Guide",
+    "category": "guide",
+    "section": "economy",
+    "audience": "all",
+    "summary": "Gathering, resource production, and building-efficiency research priorities.",
+    "tags": [
+      "research",
+      "economy",
+      "gathering",
+      "resource-production"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "empirebuildacademy.com Rise of Kingdoms Research Guide (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/economy/economic-research-guide.md"
+  },
+  {
+    "id": "guide-endgame-equipment",
+    "name": "Endgame Equipment Guide",
+    "category": "guide",
+    "section": "economy",
+    "audience": "mature-kingdom",
+    "summary": "Legendary equipment priorities, refinement strategy, Special Talent forging, and current meta equipment sets.",
+    "tags": [
+      "equipment",
+      "endgame",
+      "legendary",
+      "refinement",
+      "special-talent",
+      "meta"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+      "packsify.com Rise of Kingdoms Equipment Guide for High Spenders (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/equipment/endgame-equipment-guide.md"
+  },
+  {
+    "id": "guide-equipment-transition",
+    "name": "Equipment Transition Guide",
+    "category": "guide",
+    "section": "progression",
+    "audience": "growing-kingdom",
+    "summary": "Moving from ad-hoc early equipment to a deliberate midgame equipment plan.",
+    "tags": [
+      "midgame",
+      "equipment",
+      "transition",
+      "blacksmith"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/midgame/equipment-transition.md"
+  },
+  {
+    "id": "guide-farm-account-system",
+    "name": "Farm Account System",
+    "category": "guide",
+    "section": "advanced",
+    "audience": "mature-kingdom",
+    "summary": "How and why experienced players run secondary \"farm\" accounts to feed resources to a main account.",
+    "tags": [
+      "advanced",
+      "farm-accounts",
+      "resources",
+      "multi-account"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "general community farm-account guidance (aggregated)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/advanced/farm-account-system.md"
+  },
+  {
+    "id": "guide-fighting-efficiency",
+    "name": "Fighting Efficiency Guide",
+    "category": "guide",
+    "section": "advanced",
+    "audience": "mature-kingdom",
+    "summary": "How endgame accounts minimize troop losses and maximize combat output per engagement.",
+    "tags": [
+      "endgame",
+      "combat",
+      "efficiency",
+      "troop-losses",
+      "healing"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "general endgame combat guidance (aggregated)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/endgame/fighting-efficiency.md"
+  },
+  {
     "id": "guide-first-90-days",
     "name": "First 90 Days Roadmap",
     "category": "guide",
@@ -304,103 +622,44 @@
     "_source_file": "guides/beginner/first-days.md"
   },
   {
-    "id": "guide-combat-equipment",
-    "name": "Equipping for Combat",
+    "id": "guide-garrison-equipment-optimization",
+    "name": "Garrison Equipment Optimization",
     "category": "guide",
     "section": "combat",
     "audience": "all",
-    "summary": "How to prioritize equipment slots and sets based on your commander's combat role.",
+    "summary": "Gearing garrison defenders for maximum damage mitigation and counterattack value.",
     "tags": [
-      "combat",
       "equipment",
-      "gear-priority"
-    ],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/Equipment"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/combat/equipment.md"
-  },
-  {
-    "id": "guide-march-control",
-    "name": "March Control and Field Coordination",
-    "category": "guide",
-    "section": "combat",
-    "audience": "mature-kingdom",
-    "summary": "How alliances coordinate multiple marches for rallies, reinforcements, and counter-attacks.",
-    "tags": [
-      "combat",
-      "march-control",
-      "rally",
-      "coordination",
-      "alliance"
-    ],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "Community KvK guides (riseofkingdomsguides.com)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/combat/march-control.md"
-  },
-  {
-    "id": "guide-open-field-combat",
-    "name": "Open Field Combat Fundamentals",
-    "category": "guide",
-    "section": "combat",
-    "audience": "all",
-    "summary": "Core principles for winning open-field skirmishes: scouting, troop composition, and commander skill timing.",
-    "tags": [
-      "combat",
-      "open-field",
-      "pvp",
-      "march-control"
-    ],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "riseofkingdoms.fandom.com"
-    ],
-    "detail_status": "complete",
-    "_source_file": "guides/combat/open-field.md"
-  },
-  {
-    "id": "guide-combat-talents",
-    "name": "Talent Builds for Combat Roles",
-    "category": "guide",
-    "section": "combat",
-    "audience": "all",
-    "summary": "How to choose talent trees and keystones based on whether a commander is a rally leader, secondary, or garrison defender.",
-    "tags": [
-      "combat",
-      "talents",
-      "builds"
-    ],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/Talents"
-    ],
-    "detail_status": "complete",
-    "_source_file": "guides/combat/talents.md"
-  },
-  {
-    "id": "guide-economic-research",
-    "name": "Economic Research Guide",
-    "category": "guide",
-    "section": "economy",
-    "audience": "all",
-    "summary": "Gathering, resource production, and building-efficiency research priorities.",
-    "tags": [
-      "research",
-      "economy",
-      "gathering",
-      "resource-production"
+      "garrison",
+      "optimization",
+      "defense"
     ],
     "last_updated": "2026-07-15",
     "sources": [
-      "empirebuildacademy.com Rise of Kingdoms Research Guide (2026)"
+      "community accessory guides (aggregated)"
     ],
     "detail_status": "partial",
-    "_source_file": "guides/economy/economic-research-guide.md"
+    "_source_file": "guides/equipment/garrison-equipment-optimization.md"
+  },
+  {
+    "id": "guide-garrison-support",
+    "name": "Garrison Support Guide",
+    "category": "guide",
+    "section": "advanced",
+    "audience": "mature-kingdom",
+    "summary": "How to contribute effectively as a reinforcing garrison defender rather than the primary garrison commander.",
+    "tags": [
+      "war",
+      "garrison",
+      "reinforcement",
+      "defense"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "general endgame combat guidance (aggregated)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/war/garrison-support.md"
   },
   {
     "id": "guide-gathering",
@@ -423,6 +682,26 @@
     "_source_file": "guides/economy/gathering.md"
   },
   {
+    "id": "guide-gathering-equipment-optimization",
+    "name": "Gathering Equipment Optimization",
+    "category": "guide",
+    "section": "economy",
+    "audience": "all",
+    "summary": "Gearing dedicated gathering marches for maximum resource throughput.",
+    "tags": [
+      "equipment",
+      "gathering",
+      "optimization",
+      "economy"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/equipment/gathering-equipment-optimization.md"
+  },
+  {
     "id": "guide-gem-farming",
     "name": "Gem Farming Strategies",
     "category": "guide",
@@ -443,341 +722,24 @@
     "_source_file": "guides/economy/gem-farming.md"
   },
   {
-    "id": "guide-military-research",
-    "name": "Military Research Guide",
-    "category": "guide",
-    "section": "economy",
-    "audience": "all",
-    "summary": "Infantry, Cavalry, Archer, and Siege research priorities, and T5 research prerequisites.",
-    "tags": [
-      "research",
-      "military",
-      "infantry",
-      "cavalry",
-      "archer",
-      "siege",
-      "t5"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "packsify.com Rise of Kingdoms Military Research Priority Guide",
-      "riseofkingdomsguides.com Tier 5 Requirements guide"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/economy/military-research-guide.md"
-  },
-  {
-    "id": "guide-research-fundamentals",
-    "name": "Research Fundamentals",
-    "category": "guide",
-    "section": "economy",
-    "audience": "all",
-    "summary": "Academy progression, research priority principles, and how to avoid wasting resources on research.",
-    "tags": [
-      "research",
-      "academy",
-      "technology",
-      "priority"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "empirebuildacademy.com Rise of Kingdoms Research Guide (2026)",
-      "packsify.com Rise of Kingdoms Military Research Priority Guide"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/economy/research-fundamentals.md"
-  },
-  {
-    "id": "guide-resource-management",
-    "name": "Resource Management Basics",
-    "category": "guide",
-    "section": "economy",
-    "audience": "all",
-    "summary": "How to avoid resource waste, manage caps, and protect resources from raids.",
-    "tags": [
-      "economy",
-      "resources",
-      "warehouse",
-      "protection"
-    ],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "riseofkingdoms.fandom.com"
-    ],
-    "detail_status": "complete",
-    "_source_file": "guides/economy/resource-management.md"
-  },
-  {
-    "id": "guide-speedups",
-    "name": "Speedup Management",
-    "category": "guide",
-    "section": "economy",
-    "audience": "all",
-    "summary": "How to prioritize spending construction, research, and training speedups.",
-    "tags": [
-      "economy",
-      "speedups",
-      "efficiency"
-    ],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "Community guides (riseofkingdomsguides.com)"
-    ],
-    "detail_status": "complete",
-    "_source_file": "guides/economy/speedups.md"
-  },
-  {
-    "id": "guide-t5-progression",
-    "name": "T5 Progression Guide",
-    "category": "guide",
-    "section": "economy",
-    "audience": "mature-kingdom",
-    "summary": "Complete requirements, timeline, and resource planning for unlocking Tier 5 troops.",
-    "tags": [
-      "t5",
-      "research",
-      "progression",
-      "endgame",
-      "resource-planning"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdomsguides.com Tier 5 Requirements guide",
-      "ajackof.com ROK T5 Rush Guide",
-      "heaven-guardian.com Rise of Kingdoms Unlock T5 Troops guide"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/economy/t5-progression-guide.md"
-  },
-  {
-    "id": "guide-armaments-endgame",
-    "name": "Armaments and Formations Guide",
+    "id": "guide-hospital-management",
+    "name": "Hospital Management Guide",
     "category": "guide",
     "section": "advanced",
     "audience": "mature-kingdom",
-    "summary": "How the Armament/Formation/Inscription system works and how to optimize it at the endgame.",
+    "summary": "How to size and manage Hospital capacity and healing speed for active war periods.",
     "tags": [
-      "endgame",
-      "armaments",
-      "formations",
-      "inscriptions"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "touchscreengaming.com Formations, Inscriptions and Armaments guide",
-      "riseofkingdomsguides.com Formations, Armaments, and Inscriptions Guide"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/endgame/armaments-guide.md"
-  },
-  {
-    "id": "guide-fighting-efficiency",
-    "name": "Fighting Efficiency Guide",
-    "category": "guide",
-    "section": "advanced",
-    "audience": "mature-kingdom",
-    "summary": "How endgame accounts minimize troop losses and maximize combat output per engagement.",
-    "tags": [
-      "endgame",
-      "combat",
-      "efficiency",
-      "troop-losses",
-      "healing"
+      "war",
+      "hospital",
+      "healing",
+      "troop-losses"
     ],
     "last_updated": "2026-07-15",
     "sources": [
       "general endgame combat guidance (aggregated)"
     ],
     "detail_status": "partial",
-    "_source_file": "guides/endgame/fighting-efficiency.md"
-  },
-  {
-    "id": "guide-meta-commander-investment",
-    "name": "Meta Commander Investment Guide",
-    "category": "guide",
-    "section": "advanced",
-    "audience": "mature-kingdom",
-    "summary": "How endgame accounts should prioritize investment among top-tier meta commanders.",
-    "tags": [
-      "endgame",
-      "commanders",
-      "meta",
-      "investment"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "allclash.com Best Commanders Tier List in Rise of Kingdoms (2026)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/endgame/meta-commander-investment.md"
-  },
-  {
-    "id": "guide-season-of-conquest-endgame",
-    "name": "Season of Conquest Endgame Guide",
-    "category": "guide",
-    "section": "advanced",
-    "audience": "mature-kingdom",
-    "summary": "How endgame accounts should approach the full Season of Conquest cycle.",
-    "tags": [
-      "endgame",
-      "season-of-conquest",
-      "kvk",
-      "crystal-tech"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "packsify.com Rise of Kingdoms Season of Conquest Guide for Alliance Leaders"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/endgame/season-of-conquest-endgame.md"
-  },
-  {
-    "id": "guide-t5-players",
-    "name": "T5 Players Guide",
-    "category": "guide",
-    "section": "advanced",
-    "audience": "mature-kingdom",
-    "summary": "What changes strategically once an account reaches Tier 5 troops.",
-    "tags": [
-      "endgame",
-      "t5",
-      "strategy"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdomsguides.com Tier 5 Requirements guide"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/endgame/t5-players-guide.md"
-  },
-  {
-    "id": "guide-archer-equipment-optimization",
-    "name": "Archer Equipment Optimization",
-    "category": "guide",
-    "section": "combat",
-    "audience": "all",
-    "summary": "Gearing Archer marches around skill damage for open-field and rally nuking.",
-    "tags": [
-      "equipment",
-      "archer",
-      "optimization",
-      "skill-damage",
-      "open-field",
-      "rally"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "lootbar.com Ultimate Archer Equipment Guide (Early → Endgame)",
-      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/equipment/archer-equipment-optimization.md"
-  },
-  {
-    "id": "guide-beginner-equipment",
-    "name": "Beginner Equipment Guide",
-    "category": "guide",
-    "section": "economy",
-    "audience": "new-player",
-    "summary": "What to craft first, what to avoid, and how to manage materials and blueprints as a new player.",
-    "tags": [
-      "equipment",
-      "beginner",
-      "blacksmith",
-      "materials",
-      "blueprints"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
-      "packsify.com Rise of Kingdoms Equipment Guide for High Spenders (2026)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/equipment/beginner-equipment-guide.md"
-  },
-  {
-    "id": "guide-cavalry-equipment-optimization",
-    "name": "Cavalry Equipment Optimization",
-    "category": "guide",
-    "section": "combat",
-    "audience": "all",
-    "summary": "Gearing Cavalry marches for open-field roaming versus rally leadership.",
-    "tags": [
-      "equipment",
-      "cavalry",
-      "optimization",
-      "open-field",
-      "rally"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/equipment/cavalry-equipment-optimization.md"
-  },
-  {
-    "id": "guide-endgame-equipment",
-    "name": "Endgame Equipment Guide",
-    "category": "guide",
-    "section": "economy",
-    "audience": "mature-kingdom",
-    "summary": "Legendary equipment priorities, refinement strategy, Special Talent forging, and current meta equipment sets.",
-    "tags": [
-      "equipment",
-      "endgame",
-      "legendary",
-      "refinement",
-      "special-talent",
-      "meta"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
-      "packsify.com Rise of Kingdoms Equipment Guide for High Spenders (2026)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/equipment/endgame-equipment-guide.md"
-  },
-  {
-    "id": "guide-garrison-equipment-optimization",
-    "name": "Garrison Equipment Optimization",
-    "category": "guide",
-    "section": "combat",
-    "audience": "all",
-    "summary": "Gearing garrison defenders for maximum damage mitigation and counterattack value.",
-    "tags": [
-      "equipment",
-      "garrison",
-      "optimization",
-      "defense"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "community accessory guides (aggregated)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/equipment/garrison-equipment-optimization.md"
-  },
-  {
-    "id": "guide-gathering-equipment-optimization",
-    "name": "Gathering Equipment Optimization",
-    "category": "guide",
-    "section": "economy",
-    "audience": "all",
-    "summary": "Gearing dedicated gathering marches for maximum resource throughput.",
-    "tags": [
-      "equipment",
-      "gathering",
-      "optimization",
-      "economy"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/equipment/gathering-equipment-optimization.md"
+    "_source_file": "guides/war/hospital-management.md"
   },
   {
     "id": "guide-infantry-equipment-optimization",
@@ -801,167 +763,64 @@
     "_source_file": "guides/equipment/infantry-equipment-optimization.md"
   },
   {
-    "id": "guide-midgame-equipment",
-    "name": "Midgame Equipment Guide",
+    "id": "guide-kill-event-strategy",
+    "name": "Kill Event Strategy",
     "category": "guide",
-    "section": "economy",
-    "audience": "growing-kingdom",
-    "summary": "Purple vs. Legendary equipment tradeoffs, upgrade timing, and efficient crafting for a maturing account.",
-    "tags": [
-      "equipment",
-      "midgame",
-      "blacksmith",
-      "purple",
-      "legendary"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/equipment/midgame-equipment-guide.md"
-  },
-  {
-    "id": "guide-open-field-equipment-optimization",
-    "name": "Open Field Equipment Optimization",
-    "category": "guide",
-    "section": "combat",
-    "audience": "all",
-    "summary": "Gearing a roaming open-field march for skirmish damage, mobility, and disengagement safety.",
-    "tags": [
-      "equipment",
-      "open-field",
-      "optimization",
-      "mobility"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "community accessory guides (aggregated)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/equipment/open-field-equipment-optimization.md"
-  },
-  {
-    "id": "guide-rally-equipment-optimization",
-    "name": "Rally Equipment Optimization",
-    "category": "guide",
-    "section": "combat",
+    "section": "advanced",
     "audience": "mature-kingdom",
-    "summary": "Gearing a rally leader's march for sustained damage, rage generation, and survivability.",
+    "summary": "How to maximize kill-count/points during PvP-scored event phases (e.g., Mightiest Governor's Killing Enemies phase).",
     "tags": [
-      "equipment",
-      "rally",
-      "optimization",
-      "kvk",
-      "ark-of-osiris"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "community accessory guides (aggregated)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/equipment/rally-equipment-optimization.md"
-  },
-  {
-    "id": "guide-alliance-events",
-    "name": "Alliance Events Overview",
-    "category": "guide",
-    "section": "events",
-    "audience": "mature-kingdom",
-    "summary": "How alliance-wide events (fortress battles, alliance mobilization, territory events) generally function and how to contribute.",
-    "tags": [
-      "events",
-      "alliance",
-      "mobilization",
-      "territory"
-    ],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "riseofkingdoms.fandom.com"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/events/alliance-events.md"
-  },
-  {
-    "id": "guide-ark-of-osiris",
-    "name": "Ark of Osiris Event",
-    "category": "guide",
-    "section": "events",
-    "audience": "mature-kingdom",
-    "summary": "A large-scale cross-kingdom team battle event centered on capturing and defending an \"Ark\" objective.",
-    "tags": [
-      "events",
-      "ark-of-osiris",
-      "cross-kingdom",
-      "team-battle"
-    ],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/Ark_of_Osiris"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/events/ark-of-osiris.md"
-  },
-  {
-    "id": "guide-lucerne-scroll",
-    "name": "Lucerne Scroll (Sunset Canyon) Event",
-    "category": "guide",
-    "section": "events",
-    "audience": "all",
-    "summary": "A team-based PvP scoring event mode distinct from the standard open-field/rally combat loop.",
-    "tags": [
-      "events",
-      "lucerne-scroll",
-      "sunset-canyon",
-      "pvp",
-      "team-combat"
-    ],
-    "last_updated": "2026-07-14",
-    "sources": [
-      "riseofkingdoms.fandom.com/wiki/Sunset_Canyon"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/events/lucerne-scroll.md"
-  },
-  {
-    "id": "guide-mightiest-governor",
-    "name": "Mightiest Governor Event",
-    "category": "guide",
-    "section": "events",
-    "audience": "mature-kingdom",
-    "summary": "A multi-day individual competitive event scoring points across gathering, building, research, and combat tasks.",
-    "tags": [
-      "events",
+      "war",
+      "kill-events",
       "mightiest-governor",
-      "competitive",
-      "scoring"
+      "pvp-scoring"
     ],
-    "last_updated": "2026-07-14",
+    "last_updated": "2026-07-15",
     "sources": [
-      "riseofkingdoms.fandom.com/wiki/Mightiest_Governor"
+      "riseofkingdomsguides.com/the-mightiest-governor-event/"
     ],
     "detail_status": "partial",
-    "_source_file": "guides/events/mightiest-governor.md"
+    "_source_file": "guides/war/kill-event-strategy.md"
   },
   {
-    "id": "guide-wheel-of-fortune",
-    "name": "Wheel of Fortune Event",
+    "id": "guide-kingdom-management",
+    "name": "Kingdom Management Guide",
     "category": "guide",
-    "section": "events",
-    "audience": "all",
-    "summary": "How the Wheel of Fortune gacha-style event works and how to spend efficiently.",
+    "section": "advanced",
+    "audience": "mature-kingdom",
+    "summary": "How top alliance leadership coordinates across multiple alliances within a kingdom.",
     "tags": [
-      "events",
-      "wheel-of-fortune",
-      "gacha",
-      "sculptures"
+      "advanced",
+      "alliance-leadership",
+      "kingdom-management",
+      "cross-alliance"
     ],
-    "last_updated": "2026-07-14",
+    "last_updated": "2026-07-15",
     "sources": [
-      "riseofkingdoms.fandom.com/wiki/Wheel_of_Fortune"
+      "general alliance-leadership guidance (aggregated)"
     ],
     "detail_status": "partial",
-    "_source_file": "guides/events/wheel-of-fortune.md"
+    "_source_file": "guides/advanced/kingdom-management.md"
+  },
+  {
+    "id": "guide-kvk-leadership",
+    "name": "KvK Leadership Guide",
+    "category": "guide",
+    "section": "advanced",
+    "audience": "mature-kingdom",
+    "summary": "How alliance/kingdom leadership should plan and execute strategy across a KvK season.",
+    "tags": [
+      "advanced",
+      "alliance-leadership",
+      "kvk",
+      "war-planning"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "general alliance-leadership guidance (aggregated)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/advanced/kvk-leadership.md"
   },
   {
     "id": "guide-kvk1",
@@ -1022,86 +881,66 @@
     "_source_file": "guides/kvk/kvk3.md"
   },
   {
-    "id": "guide-research-during-kvk",
-    "name": "Research During KvK",
+    "id": "guide-lucerne-scroll",
+    "name": "Lucerne Scroll (Sunset Canyon) Event",
     "category": "guide",
-    "section": "kvk",
-    "audience": "mature-kingdom",
-    "summary": "How to sequence research investment before, during, and after a KvK season.",
+    "section": "events",
+    "audience": "all",
+    "summary": "A team-based PvP scoring event mode distinct from the standard open-field/rally combat loop.",
     "tags": [
-      "research",
-      "kvk",
-      "timing",
-      "planning"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "empirebuildacademy.com Rise of Kingdoms Research Guide (2026)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/kvk/research-during-kvk.md"
-  },
-  {
-    "id": "guide-season-of-conquest",
-    "name": "Season of Conquest",
-    "category": "guide",
-    "section": "kvk",
-    "audience": "mature-kingdom",
-    "summary": "The overarching endgame ruleset governing multi-phase KvK seasons and Ark of Osiris-style objectives.",
-    "tags": [
-      "kvk",
-      "season-of-conquest",
-      "endgame",
-      "ark-of-osiris"
+      "events",
+      "lucerne-scroll",
+      "sunset-canyon",
+      "pvp",
+      "team-combat"
     ],
     "last_updated": "2026-07-14",
     "sources": [
-      "riseofkingdoms.fandom.com/wiki/Kingdom_vs_Kingdom"
+      "riseofkingdoms.fandom.com/wiki/Sunset_Canyon"
     ],
     "detail_status": "partial",
-    "_source_file": "guides/kvk/season-of-conquest.md"
+    "_source_file": "guides/events/lucerne-scroll.md"
   },
   {
-    "id": "guide-alliance-participation",
-    "name": "Alliance Participation Guide",
+    "id": "guide-march-control",
+    "name": "March Control and Field Coordination",
     "category": "guide",
-    "section": "progression",
-    "audience": "growing-kingdom",
-    "summary": "How to move from passive alliance membership to an active, trusted contributor ahead of KvK.",
+    "section": "combat",
+    "audience": "mature-kingdom",
+    "summary": "How alliances coordinate multiple marches for rallies, reinforcements, and counter-attacks.",
     "tags": [
-      "midgame",
-      "alliance",
-      "participation",
-      "trust"
+      "combat",
+      "march-control",
+      "rally",
+      "coordination",
+      "alliance"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "Community KvK guides (riseofkingdomsguides.com)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/combat/march-control.md"
+  },
+  {
+    "id": "guide-meta-commander-investment",
+    "name": "Meta Commander Investment Guide",
+    "category": "guide",
+    "section": "advanced",
+    "audience": "mature-kingdom",
+    "summary": "How endgame accounts should prioritize investment among top-tier meta commanders.",
+    "tags": [
+      "endgame",
+      "commanders",
+      "meta",
+      "investment"
     ],
     "last_updated": "2026-07-15",
     "sources": [
-      "lootbar.com Rise of Kingdoms Beginner's Guide to Fast Progression (2026)"
+      "allclash.com Best Commanders Tier List in Rise of Kingdoms (2026)"
     ],
     "detail_status": "partial",
-    "_source_file": "guides/midgame/alliance-participation.md"
-  },
-  {
-    "id": "guide-ch21-25-progression",
-    "name": "City Hall 21-25 Progression",
-    "category": "guide",
-    "section": "progression",
-    "audience": "growing-kingdom",
-    "summary": "The \"Feudal Age\" stretch from City Hall 21 to 25, including required building levels and troop-tier milestones.",
-    "tags": [
-      "midgame",
-      "city-hall",
-      "feudal-age",
-      "t4",
-      "t5-prep"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "pocketgamer.com Rise of Kingdoms City Hall upgrade requirements and designs",
-      "ajackof.com ROK City Hall Building Requirements"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/midgame/ch21-25-progression.md"
+    "_source_file": "guides/endgame/meta-commander-investment.md"
   },
   {
     "id": "guide-midgame-commander-investment",
@@ -1124,24 +963,25 @@
     "_source_file": "guides/midgame/commander-investment-midgame.md"
   },
   {
-    "id": "guide-equipment-transition",
-    "name": "Equipment Transition Guide",
+    "id": "guide-midgame-equipment",
+    "name": "Midgame Equipment Guide",
     "category": "guide",
-    "section": "progression",
+    "section": "economy",
     "audience": "growing-kingdom",
-    "summary": "Moving from ad-hoc early equipment to a deliberate midgame equipment plan.",
+    "summary": "Purple vs. Legendary equipment tradeoffs, upgrade timing, and efficient crafting for a maturing account.",
     "tags": [
-      "midgame",
       "equipment",
-      "transition",
-      "blacksmith"
+      "midgame",
+      "blacksmith",
+      "purple",
+      "legendary"
     ],
     "last_updated": "2026-07-15",
     "sources": [
       "riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/"
     ],
     "detail_status": "partial",
-    "_source_file": "guides/midgame/equipment-transition.md"
+    "_source_file": "guides/equipment/midgame-equipment-guide.md"
   },
   {
     "id": "guide-midgame-kvk-preparation",
@@ -1164,24 +1004,108 @@
     "_source_file": "guides/midgame/kvk-preparation-midgame.md"
   },
   {
-    "id": "guide-t4-unlocking",
-    "name": "T4 Unlocking Guide",
+    "id": "guide-mightiest-governor",
+    "name": "Mightiest Governor Event",
     "category": "guide",
-    "section": "progression",
-    "audience": "growing-kingdom",
-    "summary": "What's required to unlock Tier 4 troops and how to prepare research/buildings for the transition.",
+    "section": "events",
+    "audience": "mature-kingdom",
+    "summary": "A multi-day individual competitive event scoring points across gathering, building, research, and combat tasks.",
     "tags": [
-      "midgame",
-      "t4",
-      "troops",
-      "research"
+      "events",
+      "mightiest-governor",
+      "competitive",
+      "scoring"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Mightiest_Governor"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/events/mightiest-governor.md"
+  },
+  {
+    "id": "guide-military-research",
+    "name": "Military Research Guide",
+    "category": "guide",
+    "section": "economy",
+    "audience": "all",
+    "summary": "Infantry, Cavalry, Archer, and Siege research priorities, and T5 research prerequisites.",
+    "tags": [
+      "research",
+      "military",
+      "infantry",
+      "cavalry",
+      "archer",
+      "siege",
+      "t5"
     ],
     "last_updated": "2026-07-15",
     "sources": [
-      "pocketgamer.com Rise of Kingdoms City Hall upgrade requirements and designs"
+      "packsify.com Rise of Kingdoms Military Research Priority Guide",
+      "riseofkingdomsguides.com Tier 5 Requirements guide"
     ],
     "detail_status": "partial",
-    "_source_file": "guides/midgame/t4-unlocking.md"
+    "_source_file": "guides/economy/military-research-guide.md"
+  },
+  {
+    "id": "guide-officer",
+    "name": "Alliance Officer Guide",
+    "category": "guide",
+    "section": "advanced",
+    "audience": "mature-kingdom",
+    "summary": "Responsibilities and best practices for alliance officers (R4) below the alliance leader.",
+    "tags": [
+      "advanced",
+      "alliance-leadership",
+      "officer",
+      "r4"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "general alliance-leadership guidance (aggregated)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/advanced/officer-guide.md"
+  },
+  {
+    "id": "guide-open-field-combat",
+    "name": "Open Field Combat Fundamentals",
+    "category": "guide",
+    "section": "combat",
+    "audience": "all",
+    "summary": "Core principles for winning open-field skirmishes: scouting, troop composition, and commander skill timing.",
+    "tags": [
+      "combat",
+      "open-field",
+      "pvp",
+      "march-control"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com"
+    ],
+    "detail_status": "complete",
+    "_source_file": "guides/combat/open-field.md"
+  },
+  {
+    "id": "guide-open-field-equipment-optimization",
+    "name": "Open Field Equipment Optimization",
+    "category": "guide",
+    "section": "combat",
+    "audience": "all",
+    "summary": "Gearing a roaming open-field march for skirmish damage, mobility, and disengagement safety.",
+    "tags": [
+      "equipment",
+      "open-field",
+      "optimization",
+      "mobility"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "community accessory guides (aggregated)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/equipment/open-field-equipment-optimization.md"
   },
   {
     "id": "guide-power-growth",
@@ -1205,84 +1129,25 @@
     "_source_file": "guides/progression/power-growth.md"
   },
   {
-    "id": "guide-garrison-support",
-    "name": "Garrison Support Guide",
+    "id": "guide-rally-equipment-optimization",
+    "name": "Rally Equipment Optimization",
     "category": "guide",
-    "section": "advanced",
+    "section": "combat",
     "audience": "mature-kingdom",
-    "summary": "How to contribute effectively as a reinforcing garrison defender rather than the primary garrison commander.",
+    "summary": "Gearing a rally leader's march for sustained damage, rage generation, and survivability.",
     "tags": [
-      "war",
-      "garrison",
-      "reinforcement",
-      "defense"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "general endgame combat guidance (aggregated)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/war/garrison-support.md"
-  },
-  {
-    "id": "guide-hospital-management",
-    "name": "Hospital Management Guide",
-    "category": "guide",
-    "section": "advanced",
-    "audience": "mature-kingdom",
-    "summary": "How to size and manage Hospital capacity and healing speed for active war periods.",
-    "tags": [
-      "war",
-      "hospital",
-      "healing",
-      "troop-losses"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "general endgame combat guidance (aggregated)"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/war/hospital-management.md"
-  },
-  {
-    "id": "guide-kill-event-strategy",
-    "name": "Kill Event Strategy",
-    "category": "guide",
-    "section": "advanced",
-    "audience": "mature-kingdom",
-    "summary": "How to maximize kill-count/points during PvP-scored event phases (e.g., Mightiest Governor's Killing Enemies phase).",
-    "tags": [
-      "war",
-      "kill-events",
-      "mightiest-governor",
-      "pvp-scoring"
-    ],
-    "last_updated": "2026-07-15",
-    "sources": [
-      "riseofkingdomsguides.com/the-mightiest-governor-event/"
-    ],
-    "detail_status": "partial",
-    "_source_file": "guides/war/kill-event-strategy.md"
-  },
-  {
-    "id": "guide-war-open-field-fundamentals",
-    "name": "Open Field Fundamentals (War Guide)",
-    "category": "guide",
-    "section": "advanced",
-    "audience": "mature-kingdom",
-    "summary": "Advanced open-field combat principles for competitive/KvK-level play, building on the base combat guide.",
-    "tags": [
-      "war",
-      "open-field",
+      "equipment",
+      "rally",
+      "optimization",
       "kvk",
-      "advanced-combat"
+      "ark-of-osiris"
     ],
     "last_updated": "2026-07-15",
     "sources": [
-      "general endgame combat guidance (aggregated)"
+      "community accessory guides (aggregated)"
     ],
     "detail_status": "partial",
-    "_source_file": "guides/war/open-field-fundamentals.md"
+    "_source_file": "guides/equipment/rally-equipment-optimization.md"
   },
   {
     "id": "guide-rally-support",
@@ -1305,6 +1170,188 @@
     "_source_file": "guides/war/rally-support.md"
   },
   {
+    "id": "guide-research-during-kvk",
+    "name": "Research During KvK",
+    "category": "guide",
+    "section": "kvk",
+    "audience": "mature-kingdom",
+    "summary": "How to sequence research investment before, during, and after a KvK season.",
+    "tags": [
+      "research",
+      "kvk",
+      "timing",
+      "planning"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "empirebuildacademy.com Rise of Kingdoms Research Guide (2026)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/kvk/research-during-kvk.md"
+  },
+  {
+    "id": "guide-research-fundamentals",
+    "name": "Research Fundamentals",
+    "category": "guide",
+    "section": "economy",
+    "audience": "all",
+    "summary": "Academy progression, research priority principles, and how to avoid wasting resources on research.",
+    "tags": [
+      "research",
+      "academy",
+      "technology",
+      "priority"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "empirebuildacademy.com Rise of Kingdoms Research Guide (2026)",
+      "packsify.com Rise of Kingdoms Military Research Priority Guide"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/economy/research-fundamentals.md"
+  },
+  {
+    "id": "guide-resource-management",
+    "name": "Resource Management Basics",
+    "category": "guide",
+    "section": "economy",
+    "audience": "all",
+    "summary": "How to avoid resource waste, manage caps, and protect resources from raids.",
+    "tags": [
+      "economy",
+      "resources",
+      "warehouse",
+      "protection"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com"
+    ],
+    "detail_status": "complete",
+    "_source_file": "guides/economy/resource-management.md"
+  },
+  {
+    "id": "guide-season-of-conquest",
+    "name": "Season of Conquest",
+    "category": "guide",
+    "section": "kvk",
+    "audience": "mature-kingdom",
+    "summary": "The overarching endgame ruleset governing multi-phase KvK seasons and Ark of Osiris-style objectives.",
+    "tags": [
+      "kvk",
+      "season-of-conquest",
+      "endgame",
+      "ark-of-osiris"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Kingdom_vs_Kingdom"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/kvk/season-of-conquest.md"
+  },
+  {
+    "id": "guide-season-of-conquest-endgame",
+    "name": "Season of Conquest Endgame Guide",
+    "category": "guide",
+    "section": "advanced",
+    "audience": "mature-kingdom",
+    "summary": "How endgame accounts should approach the full Season of Conquest cycle.",
+    "tags": [
+      "endgame",
+      "season-of-conquest",
+      "kvk",
+      "crystal-tech"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "packsify.com Rise of Kingdoms Season of Conquest Guide for Alliance Leaders"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/endgame/season-of-conquest-endgame.md"
+  },
+  {
+    "id": "guide-speedups",
+    "name": "Speedup Management",
+    "category": "guide",
+    "section": "economy",
+    "audience": "all",
+    "summary": "How to prioritize spending construction, research, and training speedups.",
+    "tags": [
+      "economy",
+      "speedups",
+      "efficiency"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "Community guides (riseofkingdomsguides.com)"
+    ],
+    "detail_status": "complete",
+    "_source_file": "guides/economy/speedups.md"
+  },
+  {
+    "id": "guide-t4-unlocking",
+    "name": "T4 Unlocking Guide",
+    "category": "guide",
+    "section": "progression",
+    "audience": "growing-kingdom",
+    "summary": "What's required to unlock Tier 4 troops and how to prepare research/buildings for the transition.",
+    "tags": [
+      "midgame",
+      "t4",
+      "troops",
+      "research"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "pocketgamer.com Rise of Kingdoms City Hall upgrade requirements and designs"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/midgame/t4-unlocking.md"
+  },
+  {
+    "id": "guide-t5-players",
+    "name": "T5 Players Guide",
+    "category": "guide",
+    "section": "advanced",
+    "audience": "mature-kingdom",
+    "summary": "What changes strategically once an account reaches Tier 5 troops.",
+    "tags": [
+      "endgame",
+      "t5",
+      "strategy"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com Tier 5 Requirements guide"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/endgame/t5-players-guide.md"
+  },
+  {
+    "id": "guide-t5-progression",
+    "name": "T5 Progression Guide",
+    "category": "guide",
+    "section": "economy",
+    "audience": "mature-kingdom",
+    "summary": "Complete requirements, timeline, and resource planning for unlocking Tier 5 troops.",
+    "tags": [
+      "t5",
+      "research",
+      "progression",
+      "endgame",
+      "resource-planning"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "riseofkingdomsguides.com Tier 5 Requirements guide",
+      "ajackof.com ROK T5 Rush Guide",
+      "heaven-guardian.com Rise of Kingdoms Unlock T5 Troops guide"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/economy/t5-progression-guide.md"
+  },
+  {
     "id": "guide-target-selection",
     "name": "Target Selection Guide",
     "category": "guide",
@@ -1323,5 +1370,45 @@
     ],
     "detail_status": "partial",
     "_source_file": "guides/war/target-selection.md"
+  },
+  {
+    "id": "guide-war-open-field-fundamentals",
+    "name": "Open Field Fundamentals (War Guide)",
+    "category": "guide",
+    "section": "advanced",
+    "audience": "mature-kingdom",
+    "summary": "Advanced open-field combat principles for competitive/KvK-level play, building on the base combat guide.",
+    "tags": [
+      "war",
+      "open-field",
+      "kvk",
+      "advanced-combat"
+    ],
+    "last_updated": "2026-07-15",
+    "sources": [
+      "general endgame combat guidance (aggregated)"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/war/open-field-fundamentals.md"
+  },
+  {
+    "id": "guide-wheel-of-fortune",
+    "name": "Wheel of Fortune Event",
+    "category": "guide",
+    "section": "events",
+    "audience": "all",
+    "summary": "How the Wheel of Fortune gacha-style event works and how to spend efficiently.",
+    "tags": [
+      "events",
+      "wheel-of-fortune",
+      "gacha",
+      "sculptures"
+    ],
+    "last_updated": "2026-07-14",
+    "sources": [
+      "riseofkingdoms.fandom.com/wiki/Wheel_of_Fortune"
+    ],
+    "detail_status": "partial",
+    "_source_file": "guides/events/wheel-of-fortune.md"
   }
 ]

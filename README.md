@@ -24,7 +24,7 @@ rok-knowledge/
 │   ├── beginner/  progression/  economy/  combat/
 │   └── kvk/  events/  advanced/
 ├── mechanics/            # Core game-system reference docs
-├── civilizations/        # Per-civilization detail (stub, see folder README)
+├── civilizations/        # Per-civilization database (all 15 civilizations)
 ├── equipment/            # Per-item equipment database, by category
 │   ├── infantry/  cavalry/  archer/  leadership/  mixed/  gathering/  accessories/
 ├── events/               # Per-event database, by type
@@ -84,13 +84,14 @@ This repository deliberately does **not** fabricate commander stats, skill numbe
 - **`data/commander-roster-index.json`** cross-references the full roster against `data/commanders.json` and tracks the handful of remaining gaps.
 - **9 mechanics references** covering the commander system, talents, troops, equipment, armaments, formations, rage, museum, and VIP.
 - **7 pairing documents**, one per scenario (open-field, rally, garrison, barbarians, barbarian forts, gathering, canyon).
+- **All 15 civilizations** — China, Rome, Britain, Germany, Arabia, Japan, Korea, Spain, Ottoman, Byzantium, Vikings, France, Egypt, Maya, Greece — each with sourced bonus values and role recommendations.
 - **An equipment database** — Legendary weapon/armor/accessory pieces across Infantry, Cavalry, Archer, Leadership, Mixed, Gathering, and Accessories, plus beginner/midgame/endgame equipment guides and per-role optimization guides (Infantry, Cavalry, Archer, Rally, Garrison, Open Field, Gathering).
 - **An event database** — Wheel of Fortune, Mightiest Governor, Ark of Osiris, Lucerne Scrolls, Sunset Canyon, The Karuak Ceremony, Silk Road, Shadow Legion, Ceroli Crisis, Alliance Mobilization, and Clarion Call, each with mechanics, F2P strategy, spending strategy, and common mistakes.
 - **A research database** — fundamentals, military/economic research priorities, a full T5 progression guide, and research-during-KvK sequencing.
 - **A Crystal Technology database** (Season of Conquest) — overview, early/mid/late-season strategy, and a condensed priority checklist for F2P and whale accounts.
 - **Progression guides** spanning beginner (Day 1 / Day 7 / Day 30 / First 90 Days), midgame (City Hall 21-25, T4 unlocking, commander investment, equipment transition, KvK prep, alliance participation), and endgame (T5 play, Season of Conquest, meta commander investment, Armaments, fighting efficiency).
 - **Advanced guides** — account/farm-account optimization, war guides (open field, target selection, rally/garrison support, hospital management, kill events), and alliance leadership (officers, kingdom management, KvK leadership, diplomacy, rules creation).
-- **Generated JSON** (`data/commanders.json`, `pairings.json`, `guides.json`, `equipment.json`, `events.json`) kept in sync with markdown via `scripts/markdown-to-json.py`.
+- **Generated JSON** (`data/commanders.json`, `pairings.json`, `guides.json`, `equipment.json`, `events.json`, `civilizations.json`, `mechanics.json`) kept in sync with markdown via `scripts/markdown-to-json.py`.
 
 See [CHANGELOG.md](CHANGELOG.md) for the full version history and known gaps.
 
@@ -108,7 +109,7 @@ python3 scripts/markdown-to-json.py   # regenerate data/*.json from markdown
 python3 scripts/validate-data.py      # check schema compliance, duplicate IDs, JSON validity
 ```
 
-Both scripts are stdlib-only (no pip install required). Current status: **235 documents validated across 5 categories, 0 duplicate IDs, 0 invalid JSON** (see `scripts/README.md`).
+Both scripts are stdlib-only (no pip install required). Current status: **263 documents validated across 7 categories, 0 duplicate IDs, 0 invalid JSON** (see `scripts/README.md`).
 
 ## Contributing
 
