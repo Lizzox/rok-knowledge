@@ -2,6 +2,16 @@
 
 All notable changes to this knowledge base are documented here. Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.5.0] — 2026-07-15
+
+### Added
+- **`.github/workflows/validate-and-sync.yml`** — CI pipeline running on every pull request and every push to `main`: regenerates `data/*.json`, runs `scripts/validate-data.py` (blocks merge on any failure), and auto-commits regenerated JSON back onto same-repo branches if it drifted from what the contributor committed. Fork PRs get full verification but not auto-commit, since `GITHUB_TOKEN` can't push to a fork.
+- CI status badge in `README.md`, plus a new "Automated verification (CI)" section explaining the pipeline.
+- `CONTRIBUTING.md` rewritten as a step-by-step, template-driven guide (previously reference-style only): pick-a-task table, copy-paste `<details>` templates for all 6 contributor-facing document types, and an explicit "write honestly" step foregrounding the no-fabrication rule.
+
+### Notes
+- Local script execution (Step 5 in `CONTRIBUTING.md`) is now optional for fast feedback rather than mandatory — CI catches and self-heals JSON drift automatically for same-repo branches.
+
 ## [0.4.0] — 2026-07-15
 
 ### Added

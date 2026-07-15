@@ -1,5 +1,7 @@
 # rok-knowledge
 
+[![Validate & Sync Knowledge Base](https://github.com/Lizzox/rok-knowledge/actions/workflows/validate-and-sync.yml/badge.svg)](https://github.com/Lizzox/rok-knowledge/actions/workflows/validate-and-sync.yml)
+
 The official knowledge base for **RoK Lab** — a Rise of Kingdoms platform combining an AI assistant (RAG), a Commander Pairing Engine, a guide system, a strategy database, and future API integrations.
 
 This repository is built to serve **two audiences simultaneously**:
@@ -111,9 +113,19 @@ python3 scripts/validate-data.py      # check schema compliance, duplicate IDs, 
 
 Both scripts are stdlib-only (no pip install required). Current status: **263 documents validated across 7 categories, 0 duplicate IDs, 0 invalid JSON** (see `scripts/README.md`).
 
+## Automated verification (CI)
+
+Every pull request and every push to `main` runs [`.github/workflows/validate-and-sync.yml`](.github/workflows/validate-and-sync.yml), which:
+
+1. **Regenerates** `data/*.json` from the current markdown.
+2. **Verifies** the whole repository with `scripts/validate-data.py` — the check goes red and blocks merge if any frontmatter field, required section, or duplicate ID is wrong.
+3. **Auto-commits** the regenerated `data/*.json` straight back onto the branch if verification passed and something had drifted (e.g. a contributor edited markdown but forgot to run the scripts locally).
+
+This means running the scripts locally before submitting is a nice-to-have for fast feedback, not a hard requirement — CI catches and self-heals JSON drift automatically. Auto-commit only runs for branches within this repository; pull requests from forks still get full verification, but the contributor (or a maintainer, via "Allow edits from maintainers") needs to run the scripts and push the regenerated JSON themselves, since `GITHUB_TOKEN` can't push to a fork.
+
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). The single most valuable contribution right now is picking a commander from `data/commander-roster-index.json` that lacks a detail file and researching/writing it against a verified source.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full step-by-step guide with copy-paste templates. The single most valuable contribution right now is picking a commander from `data/commander-roster-index.json` that lacks a detail file and researching/writing it against a verified source.
 
 ## License
 

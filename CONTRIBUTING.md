@@ -332,6 +332,8 @@ If it prints `All checks passed`, you're good. If it lists problems, fix them an
 
 **Commit the regenerated `data/*.json` files together with your markdown change** so they never drift out of sync.
 
+> **This step is optional, but recommended for fast feedback.** Every pull request automatically runs the same two commands via [GitHub Actions](.github/workflows/validate-and-sync.yml): it verifies your PR the same way, and if you forgot to regenerate the JSON locally, the workflow **auto-commits the corrected `data/*.json` straight onto your PR branch** — as long as your PR is from a branch in this repository (not a fork; forks don't grant the bot push access, so fork contributors do need to run the scripts locally and push the result themselves).
+
 ---
 
 ## Step 6: Submit
@@ -350,7 +352,7 @@ Small, focused pull requests (one commander, one guide, one correction) are easi
 2. **Cite your sources.** Every document has a `sources:` field.
 3. **Keep documents small.** One commander/pairing/guide/item/event per file.
 4. **Follow the schema.** Match the templates above; they mirror `schemas/*.json`.
-5. **Regenerate JSON after markdown edits.** `scripts/markdown-to-json.py` then `scripts/validate-data.py`, every time.
+5. **Regenerate JSON after markdown edits.** `scripts/markdown-to-json.py` then `scripts/validate-data.py`, every time — or let CI do it for you automatically (see [Step 5](#step-5-validate-your-work)).
 
 ## Style
 

@@ -1,0 +1,64 @@
+name: Validate & Sync Knowledge Base
+
+# Runs on every pull request (contributions) and every push to main.
+# Two jobs:
+#   1. Verify   — regenerate data/*.json from markdown, then run the
+#                 repo's own validator. Fails the check (blocking PR
+#                 merge) if anything is wrong: missing frontmatter
+#                 fields, missing required sections, duplicate IDs, or
+#                 invalid JSON.
+#   2. Sync     — if verification passed AND the regenerated JSON
+#                 differs from what the contributor committed (i.e.
+#                 they forgot to run scripts/markdown-to-json.py
+#                 locally), auto-commit the regenerated data/*.json
+#                 back onto the same branch, so nothing ever merges
+#                 out of sync.
+#
+# Auto-commit only runs for branches in this repository (not forks),
+# since GITHUB_TOKEN cannot push to a contributor's fork. Fork PRs
+# still get full verification — the contributor (or a maintainer,
+# via "Allow edits from maintainers") just needs to run the two
+# scripts locally and push the regenerated JSON themselves.
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: validate-sync-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify-and-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Regenerate data/*.json from markdown
+        run: python3 scripts/markdown-to-json.py
+
+      - name: Validate repository (schema, required sections, duplicate IDs, JSON validity)
+        run: python3 scripts/validate-data.py
+
+      - name: Auto-commit regenerated data/*.json (same-repo branches only)
+        if: |
+          success() &&
+          (github.event_name == 'push' ||
+           github.event.pull_request.head.repo.full_name == github.repository)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-regenerate data/*.json from markdown changes [skip ci]"
+          commit_user_name: "rok-knowledge-bot"
+          commit_user_email: "actions@github.com"
+          file_pattern: "data/*.json"
